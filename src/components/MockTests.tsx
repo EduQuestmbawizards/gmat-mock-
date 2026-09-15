@@ -24,6 +24,7 @@ import {
   CheckCircle,
 } from 'lucide-react';
 import { mock01Full64Questions } from '../data/mock01Questions';
+import MathText from './MathText';
 
 interface MockExam {
   id: string;
@@ -113,7 +114,7 @@ const sectionDetails = [
     time: '45 Minutes',
     badge: 'Quant',
     badgeColor: 'from-blue-500/20 to-indigo-500/10 text-blue-400 border-blue-500/30',
-    desc: 'Measures your ability to reason mathematically, solve quantitative problems, and interpret numeric data with no calculator.',
+    desc: 'Measures your ability to reason mathematically, solve quantitative problems, and interpret numeric data through mental math.',
     topics: [
       'Problem Solving (Arithmetic, Algebra, Modern Math)',
       'Number Properties & Prime Factorization',
@@ -141,7 +142,7 @@ const sectionDetails = [
     time: '45 Minutes',
     badge: 'Data Insights',
     badgeColor: 'from-emerald-500/20 to-teal-500/10 text-emerald-400 border-emerald-500/30',
-    desc: 'Combines verbal, quantitative, and data analysis skills to analyze complex multi-source business scenarios with an integrated on-screen calculator.',
+    desc: 'Combines verbal, quantitative, and data analysis skills to analyze complex multi-source business scenarios and graphics interpretation.',
     topics: [
       'Data Sufficiency (Pure Math & Real-World Scenarios)',
       'Multi-Source Reasoning (Multi-Tab Cases)',
@@ -578,44 +579,97 @@ export default function MockTests() {
                       </div>
                     )}
 
-                    {/* Question Prompt */}
-                    <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 text-sm text-slate-100 leading-relaxed font-sans mb-5 whitespace-pre-line min-h-[90px] max-h-60 overflow-y-auto">
-                      {currentQ.questionText}
-                    </div>
-
-                    {/* Option Choices */}
-                    <div className="space-y-2.5 mb-6">
-                      {(currentQ.answerOptions && currentQ.answerOptions.length > 0
-                        ? currentQ.answerOptions
-                        : [
-                            { key: 'A', text: 'Option A' },
-                            { key: 'B', text: 'Option B' },
-                            { key: 'C', text: 'Option C' },
-                            { key: 'D', text: 'Option D' },
-                            { key: 'E', text: 'Option E' },
-                          ]
-                      ).map((opt) => {
-                        const isSelected = selectedAnswers[currentQIndex] === opt.key;
-                        return (
-                          <div
-                            key={opt.key}
-                            onClick={() => handleSelectOption(currentQIndex, opt.key)}
-                            className={`p-3 rounded-xl border text-xs flex items-center justify-between cursor-pointer transition-all duration-200 ${
-                              isSelected
-                                ? 'bg-gradient-to-r from-indigo-600/40 to-cyan-600/20 border-cyan-400/80 text-white font-semibold shadow-lg shadow-indigo-500/10'
-                                : 'bg-white/[0.02] border-white/10 text-slate-300 hover:border-white/20 hover:bg-white/[0.04]'
-                            }`}
-                          >
-                            <span><strong>({opt.key})</strong> {opt.text}</span>
-                            {isSelected && (
-                              <span className="text-cyan-300 text-[10px] uppercase font-extrabold bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-500/40">
-                                SELECTED
-                              </span>
-                            )}
+                    {/* Question & Passage Display */}
+                    {currentQ.passage ? (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-6">
+                        {/* Left Pane: Reading Comprehension Passage */}
+                        <div className="p-4 rounded-2xl bg-slate-900/80 border border-white/10 text-sm text-slate-200 leading-relaxed font-serif max-h-[380px] overflow-y-auto">
+                          <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-purple-400 block mb-2">
+                            Reading Comprehension Passage
+                          </span>
+                          <MathText text={currentQ.passage} />
+                        </div>
+                        {/* Right Pane: Question Prompt & Option Choices */}
+                        <div className="flex flex-col justify-between">
+                          <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 text-sm text-slate-100 leading-relaxed font-sans mb-4 whitespace-pre-line max-h-40 overflow-y-auto">
+                            <MathText text={currentQ.questionText} />
                           </div>
-                        );
-                      })}
-                    </div>
+                          <div className="space-y-2.5">
+                            {(currentQ.answerOptions && currentQ.answerOptions.length > 0
+                              ? currentQ.answerOptions
+                              : [
+                                  { key: 'A', text: 'Option A' },
+                                  { key: 'B', text: 'Option B' },
+                                  { key: 'C', text: 'Option C' },
+                                  { key: 'D', text: 'Option D' },
+                                  { key: 'E', text: 'Option E' },
+                                ]
+                            ).map((opt) => {
+                              const isSelected = selectedAnswers[currentQIndex] === opt.key;
+                              return (
+                                <div
+                                  key={opt.key}
+                                  onClick={() => handleSelectOption(currentQIndex, opt.key)}
+                                  className={`p-3 rounded-xl border text-xs flex items-center justify-between cursor-pointer transition-all duration-200 ${
+                                    isSelected
+                                      ? 'bg-gradient-to-r from-indigo-600/40 to-cyan-600/20 border-cyan-400/80 text-white font-semibold shadow-lg shadow-indigo-500/10'
+                                      : 'bg-white/[0.02] border-white/10 text-slate-300 hover:border-white/20 hover:bg-white/[0.04]'
+                                  }`}
+                                >
+                                  <span><strong>({opt.key})</strong> <MathText text={opt.text} /></span>
+                                  {isSelected && (
+                                    <span className="text-cyan-300 text-[10px] uppercase font-extrabold bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-500/40">
+                                      SELECTED
+                                    </span>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <>
+                        {/* Question Prompt */}
+                        <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 text-sm text-slate-100 leading-relaxed font-sans mb-5 whitespace-pre-line min-h-[90px] max-h-60 overflow-y-auto">
+                          <MathText text={currentQ.questionText} />
+                        </div>
+
+                        {/* Option Choices */}
+                        <div className="space-y-2.5 mb-6">
+                          {(currentQ.answerOptions && currentQ.answerOptions.length > 0
+                            ? currentQ.answerOptions
+                            : [
+                                { key: 'A', text: 'Option A' },
+                                { key: 'B', text: 'Option B' },
+                                { key: 'C', text: 'Option C' },
+                                { key: 'D', text: 'Option D' },
+                                { key: 'E', text: 'Option E' },
+                              ]
+                          ).map((opt) => {
+                            const isSelected = selectedAnswers[currentQIndex] === opt.key;
+                            return (
+                              <div
+                                key={opt.key}
+                                onClick={() => handleSelectOption(currentQIndex, opt.key)}
+                                className={`p-3 rounded-xl border text-xs flex items-center justify-between cursor-pointer transition-all duration-200 ${
+                                  isSelected
+                                    ? 'bg-gradient-to-r from-indigo-600/40 to-cyan-600/20 border-cyan-400/80 text-white font-semibold shadow-lg shadow-indigo-500/10'
+                                    : 'bg-white/[0.02] border-white/10 text-slate-300 hover:border-white/20 hover:bg-white/[0.04]'
+                                }`}
+                              >
+                                <span><strong>({opt.key})</strong> <MathText text={opt.text} /></span>
+                                {isSelected && (
+                                  <span className="text-cyan-300 text-[10px] uppercase font-extrabold bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-500/40">
+                                    SELECTED
+                                  </span>
+                                )}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </>
+                    )}
 
                     {/* Test Controls / Navigation Bar */}
                     <div className="pt-4 border-t border-white/10 flex items-center justify-between text-xs">

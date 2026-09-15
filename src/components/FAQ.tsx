@@ -15,8 +15,8 @@ export default function FAQ() {
       a: 'Our mock test algorithm is calibrated strictly to the official GMAC Focus Edition Item Response Theory (IRT) model. Section scores range from 60 to 90, and total scores range from 205 to 805 ending in digit 5. Historical data shows a 99.4% correlation between our simulated scores and actual test-day results.',
     },
     {
-      q: 'Can I choose my own section order and review answers?',
-      a: 'Yes! Just like the actual test center exam, you can pick any of the 6 section orders (e.g. Quant-Verbal-DI, DI-Quant-Verbal, etc.). You also have access to the official "Review & Edit" feature allowing you to bookmark questions and change up to 3 answers per section before final submission.',
+      q: 'Can I choose my own section order for the exam?',
+      a: 'Yes! Just like the actual test center exam, you can pick any of the 6 official section orders (e.g. Quant-Verbal-DI, DI-Quant-Verbal, etc.) before beginning your full-length simulation.',
     },
     {
       q: 'Are written and video explanations provided for every question?',

@@ -131,8 +131,8 @@ export default function AnalyticsDemo() {
                 <span className="text-base font-bold text-cyan-300">1m 58s</span>
               </div>
               <div className="glass p-3 rounded-xl border border-white/5">
-                <span className="text-slate-400 block text-[11px]">Review & Edited Qs</span>
-                <span className="text-base font-bold text-emerald-300">2 / 3 used</span>
+                <span className="text-slate-400 block text-[11px]">Questions Completed</span>
+                <span className="text-base font-bold text-emerald-300">64 / 64</span>
               </div>
             </div>
 

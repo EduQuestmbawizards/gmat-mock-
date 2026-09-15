@@ -15,8 +15,8 @@ export default function Comparison() {
     },
     {
       feature: 'Exam Navigation',
-      ours: 'Question bookmarking, navigator drawer, and review/edit up to 3 answers per section',
-      others: 'One-way linear navigation with no review feature',
+      ours: 'Interactive question palette with instant navigation and state indicators',
+      others: 'Rigid navigation without quick question status overview',
     },
     {
       feature: 'Explanations & Solutions',
@@ -29,9 +29,9 @@ export default function Comparison() {
       others: 'Generic correct/incorrect summary without actionable insights',
     },
     {
-      feature: 'Data Insights Calculator',
-      ours: 'Integrated on-screen calculator mirroring official GMAC interface',
-      others: 'No integrated calculator or basic uncalibrated widget',
+      feature: 'Section Order Flexibility',
+      ours: 'Select from all 6 official GMAC section orders prior to exam start',
+      others: 'Fixed section order with no customization',
     },
   ];
 

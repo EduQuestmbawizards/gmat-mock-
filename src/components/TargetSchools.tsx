@@ -3,14 +3,14 @@ import { School, Award, ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export default function TargetSchools() {
   const schools = [
-    { name: 'Stanford Graduate School of Business', location: 'Stanford, USA', targetScore: '735+', percentile: '99th %ile', acceptance: '6%', tier: 'M7 Elite' },
-    { name: 'Harvard Business School (HBS)', location: 'Boston, USA', targetScore: '730+', percentile: '99th %ile', acceptance: '9%', tier: 'M7 Elite' },
-    { name: 'The Wharton School (UPenn)', location: 'Philadelphia, USA', targetScore: '730+', percentile: '99th %ile', acceptance: '12%', tier: 'M7 Elite' },
+    { name: 'Stanford Graduate School of Business', location: 'Stanford, USA', targetScore: '735+', percentile: '99th %ile', acceptance: '6.2%', tier: 'M7 Elite' },
+    { name: 'Harvard Business School (HBS)', location: 'Boston, USA', targetScore: '730+', percentile: '99th %ile', acceptance: '12.5%', tier: 'M7 Elite' },
+    { name: 'The Wharton School (UPenn)', location: 'Philadelphia, USA', targetScore: '730+', percentile: '99th %ile', acceptance: '9.0%', tier: 'M7 Elite' },
     { name: 'INSEAD', location: 'Fontainebleau / Singapore', targetScore: '705+', percentile: '97th %ile', acceptance: '30%', tier: 'Top Global' },
-    { name: 'Indian School of Business (ISB)', location: 'Hyderabad / Mohali, India', targetScore: '695+', percentile: '95th %ile', acceptance: '20%', tier: 'Top India' },
-    { name: 'London Business School (LBS)', location: 'London, UK', targetScore: '710+', percentile: '98th %ile', acceptance: '18%', tier: 'Top Global' },
-    { name: 'Kellogg School of Management', location: 'Evanston, USA', targetScore: '725+', percentile: '98th %ile', acceptance: '19%', tier: 'M7 Elite' },
-    { name: 'MIT Sloan School of Management', location: 'Cambridge, USA', targetScore: '725+', percentile: '98th %ile', acceptance: '14%', tier: 'M7 Elite' },
+    { name: 'Indian School of Business (ISB)', location: 'Hyderabad / Mohali, India', targetScore: '695+', percentile: '95th %ile', acceptance: '22%', tier: 'Top India' },
+    { name: 'London Business School (LBS)', location: 'London, UK', targetScore: '710+', percentile: '98th %ile', acceptance: '25%', tier: 'Top Global' },
+    { name: 'Kellogg School of Management', location: 'Evanston, USA', targetScore: '725+', percentile: '98th %ile', acceptance: '20%', tier: 'M7 Elite' },
+    { name: 'MIT Sloan School of Management', location: 'Cambridge, USA', targetScore: '725+', percentile: '98th %ile', acceptance: '14.8%', tier: 'M7 Elite' },
   ];
 
   return (

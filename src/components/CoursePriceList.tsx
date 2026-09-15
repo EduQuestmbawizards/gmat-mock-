@@ -55,7 +55,7 @@ export default function CoursePriceList() {
             Transparent Pricing, <span className="text-gradient">World-Class Mocks</span>
           </h2>
           <p className="text-slate-300 text-sm sm:text-base max-w-3xl mx-auto leading-relaxed">
-            Choose the subscription duration that aligns with your target GMAT test date and MBA application deadlines. Every plan gives you full access to our computer-adaptive testing engine and AI diagnostic reports.
+            Choose the subscription duration that aligns with your target GMAT test date and MBA application deadlines. Every plan gives you full access to our official-style testing engine, comprehensive section-wise diagnostic analytics, and pacing reports.
           </p>
 
           {/* Controls: Currency Toggle & Duration Selector */}

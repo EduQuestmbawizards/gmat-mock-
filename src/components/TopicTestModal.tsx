@@ -13,6 +13,7 @@ import {
   Check,
   BrainCircuit,
 } from 'lucide-react';
+import MathText from './MathText';
 import type { TopicTest } from '../data/topicTestsData';
 
 interface TopicTestModalProps {
@@ -185,59 +186,105 @@ export default function TopicTestModal({ test, onClose }: TopicTestModalProps) {
                 </div>
               </div>
 
-              {/* Passage Box (If Reading Comprehension) */}
-              {currentQ.passage && (
-                <div className="glass p-5 rounded-2xl border border-white/10 bg-slate-900/60 max-h-48 overflow-y-auto text-sm text-slate-300 leading-relaxed font-serif">
-                  <span className="text-xs uppercase tracking-wider text-purple-400 font-sans font-bold block mb-2">
-                    Reading Comprehension Passage:
-                  </span>
-                  {currentQ.passage}
-                </div>
-              )}
+              {/* Question Body: Two-Pane when passage is present */}
+              {currentQ.passage ? (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  {/* Left Pane: Passage */}
+                  <div className="glass p-5 rounded-2xl border border-white/10 bg-slate-900/60 max-h-[380px] overflow-y-auto text-sm text-slate-300 leading-relaxed font-serif">
+                    <span className="text-xs uppercase tracking-wider text-purple-400 font-sans font-bold block mb-2">
+                      Reading Comprehension Passage:
+                    </span>
+                    <MathText text={currentQ.passage} />
+                  </div>
 
-              {/* Question Statement */}
-              <div>
-                <div className="text-xs text-indigo-400 font-semibold uppercase tracking-wider mb-2">
-                  Question {currentIndex + 1} of {test.questions.length}
-                </div>
-                <h4 className="text-lg font-semibold text-white leading-snug mb-5">
-                  {currentQ.question}
-                </h4>
+                  {/* Right Pane: Question Prompt & Options */}
+                  <div>
+                    <div className="text-xs text-indigo-400 font-semibold uppercase tracking-wider mb-2">
+                      Question {currentIndex + 1} of {test.questions.length}
+                    </div>
+                    <h4 className="text-base font-semibold text-white leading-snug mb-4">
+                      <MathText text={currentQ.question} />
+                    </h4>
 
-                {/* Options List */}
-                <div className="space-y-3">
-                  {currentQ.options.map((opt, oIdx) => {
-                    const isSelected = selectedAnswers[currentIndex] === oIdx;
-                    const optionLetter = String.fromCharCode(65 + oIdx);
+                    {/* Options List */}
+                    <div className="space-y-3">
+                      {currentQ.options.map((opt, oIdx) => {
+                        const isSelected = selectedAnswers[currentIndex] === oIdx;
+                        const optionLetter = String.fromCharCode(65 + oIdx);
 
-                    return (
-                      <button
-                        key={oIdx}
-                        onClick={() => handleOptionSelect(oIdx)}
-                        className={`w-full p-4 rounded-xl text-left text-sm transition-all duration-200 flex items-center justify-between border cursor-pointer ${
-                          isSelected
-                            ? 'bg-gradient-to-r from-indigo-600/40 to-cyan-600/30 border-cyan-400 text-white font-medium shadow-lg shadow-indigo-500/10'
-                            : 'bg-white/[0.03] border-white/10 text-slate-300 hover:bg-white/[0.07] hover:border-white/20'
-                        }`}
-                      >
-                        <div className="flex items-center gap-3">
-                          <span
-                            className={`w-7 h-7 rounded-lg text-xs font-bold flex items-center justify-center ${
+                        return (
+                          <button
+                            key={oIdx}
+                            onClick={() => handleOptionSelect(oIdx)}
+                            className={`w-full p-4 rounded-xl text-left text-sm transition-all duration-200 flex items-center justify-between border cursor-pointer ${
                               isSelected
-                                ? 'bg-cyan-400 text-slate-950'
-                                : 'bg-white/10 text-slate-400'
+                                ? 'bg-gradient-to-r from-indigo-600/40 to-cyan-600/30 border-cyan-400 text-white font-medium shadow-lg shadow-indigo-500/10'
+                                : 'bg-white/[0.03] border-white/10 text-slate-300 hover:bg-white/[0.07] hover:border-white/20'
                             }`}
                           >
-                            {optionLetter}
-                          </span>
-                          <span>{opt}</span>
-                        </div>
-                        {isSelected && <Check size={18} className="text-cyan-400" />}
-                      </button>
-                    );
-                  })}
+                            <div className="flex items-center gap-3">
+                              <span
+                                className={`w-7 h-7 rounded-lg text-xs font-bold flex items-center justify-center ${
+                                  isSelected
+                                    ? 'bg-cyan-400 text-slate-950'
+                                    : 'bg-white/10 text-slate-400'
+                                }`}
+                              >
+                                {optionLetter}
+                              </span>
+                              <span><MathText text={opt} /></span>
+                            </div>
+                            {isSelected && <Check size={18} className="text-cyan-400" />}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
                 </div>
-              </div>
+              ) : (
+                <div>
+                  <div className="text-xs text-indigo-400 font-semibold uppercase tracking-wider mb-2">
+                    Question {currentIndex + 1} of {test.questions.length}
+                  </div>
+                  <h4 className="text-lg font-semibold text-white leading-snug mb-5">
+                    <MathText text={currentQ.question} />
+                  </h4>
+
+                  {/* Options List */}
+                  <div className="space-y-3">
+                    {currentQ.options.map((opt, oIdx) => {
+                      const isSelected = selectedAnswers[currentIndex] === oIdx;
+                      const optionLetter = String.fromCharCode(65 + oIdx);
+
+                      return (
+                        <button
+                          key={oIdx}
+                          onClick={() => handleOptionSelect(oIdx)}
+                          className={`w-full p-4 rounded-xl text-left text-sm transition-all duration-200 flex items-center justify-between border cursor-pointer ${
+                            isSelected
+                              ? 'bg-gradient-to-r from-indigo-600/40 to-cyan-600/30 border-cyan-400 text-white font-medium shadow-lg shadow-indigo-500/10'
+                              : 'bg-white/[0.03] border-white/10 text-slate-300 hover:bg-white/[0.07] hover:border-white/20'
+                          }`}
+                        >
+                          <div className="flex items-center gap-3">
+                            <span
+                              className={`w-7 h-7 rounded-lg text-xs font-bold flex items-center justify-center ${
+                                isSelected
+                                  ? 'bg-cyan-400 text-slate-950'
+                                  : 'bg-white/10 text-slate-400'
+                              }`}
+                            >
+                              {optionLetter}
+                            </span>
+                            <span><MathText text={opt} /></span>
+                          </div>
+                          {isSelected && <Check size={18} className="text-cyan-400" />}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
 
               {/* Instant Explanation (If Practice Mode is ON) */}
               {isPracticeMode && selectedAnswers[currentIndex] !== undefined && (
@@ -262,9 +309,9 @@ export default function TopicTestModal({ test, onClose }: TopicTestModalProps) {
                       </span>
                     )}
                   </div>
-                  <p className="text-slate-300 text-xs leading-relaxed whitespace-pre-line font-mono">
-                    {currentQ.explanation}
-                  </p>
+                  <div className="text-slate-300 text-xs leading-relaxed font-sans">
+                    <MathText text={currentQ.explanation} />
+                  </div>
                 </motion.div>
               )}
 
@@ -363,11 +410,9 @@ export default function TopicTestModal({ test, onClose }: TopicTestModalProps) {
                         }`}
                       >
                         <div className="flex items-start justify-between gap-3 mb-2">
-                          <div className="flex items-center gap-2 font-semibold text-sm text-white">
-                            <span className="w-6 h-6 rounded-full bg-white/10 text-xs flex items-center justify-center">
-                              {idx + 1}
-                            </span>
-                            <span>{q.question}</span>
+                          <div className="font-medium text-white text-sm flex items-start gap-2.5">
+                            <span className="text-cyan-400 font-bold shrink-0">Q{idx + 1}.</span>
+                            <span><MathText text={q.question} /></span>
                           </div>
                           <span
                             className={`px-2.5 py-0.5 rounded-full text-xs font-semibold shrink-0 ${
@@ -384,22 +429,26 @@ export default function TopicTestModal({ test, onClose }: TopicTestModalProps) {
                           <div>
                             Your Choice:{' '}
                             <span className={isCorrect ? 'text-emerald-400 font-bold' : 'text-rose-400 font-bold'}>
-                              {userAns !== undefined ? `${String.fromCharCode(65 + userAns)}) ${q.options[userAns]}` : 'Not Answered'}
+                              {userAns !== undefined ? (
+                                <>
+                                  {String.fromCharCode(65 + userAns)}) <MathText text={q.options[userAns]} />
+                                </>
+                              ) : 'Not Answered'}
                             </span>
                           </div>
                           {!isCorrect && (
                             <div>
                               Correct Answer:{' '}
                               <span className="text-emerald-400 font-bold">
-                                {String.fromCharCode(65 + q.correctAnswer)}) {q.options[q.correctAnswer]}
+                                {String.fromCharCode(65 + q.correctAnswer)}) <MathText text={q.options[q.correctAnswer]} />
                               </span>
                             </div>
                           )}
                         </div>
 
-                        <div className="glass p-3.5 rounded-xl border border-white/10 bg-black/40 text-xs text-slate-300 leading-relaxed font-mono whitespace-pre-line ml-8">
-                          <strong className="text-cyan-400 block mb-1">Explanation:</strong>
-                          {q.explanation}
+                        <div className="glass p-3.5 rounded-xl border border-white/10 bg-black/40 text-xs text-slate-300 leading-relaxed font-sans ml-8">
+                          <strong className="text-cyan-400 block mb-1 font-mono">Explanation:</strong>
+                          <MathText text={q.explanation} />
                         </div>
                       </div>
                     );

@@ -59,7 +59,7 @@ export default function MockSeriesGrid() {
             15 Full-Length <span className="text-gradient">Computer-Adaptive Mocks</span>
           </h2>
           <p className="text-slate-300 text-sm sm:text-base max-w-3xl mx-auto leading-relaxed">
-            Every test is calibrated using real Item Response Theory (IRT) algorithms matching the official GMAC test center. Practice the full 64-question exam across 3 timed 45-minute sections.
+            Every test is calibrated to the official GMAT Focus Edition 205–805 score scale with section-level pacing analytics. Practice the full 64-question exam across 3 timed 45-minute sections.
           </p>
 
           {/* Filter Pills */}

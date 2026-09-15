@@ -62,8 +62,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       'Step-by-Step Written & Video Solutions for Every Question',
       'AI Diagnostics: Top 5 Weak & Strong Topics Heatmaps',
       'Stamina & Pacing Analysis (Time-per-question alerts)',
-      'Review & Edit up to 3 Questions per Section (Official Rule)',
-      'Integrated On-Screen Calculator for Data Insights',
+      'Section Order Selection (All 6 Official Permutations)',
       'Topic-Wise Practice Drills (20 Questions each)',
       'Score Percentile Benchmarks against Harvard, Stanford, ISB',
       'Complimentary GMAT Strategy Starter Kit',
@@ -114,8 +113,6 @@ export const FEATURE_COMPARISON_MATRIX: FeatureComparisonRow[] = [
   { category: 'Mock Exam Suite', feature: 'Full-Length Computer-Adaptive Mocks', freeTrial: '1 Mock (64 Qs)', mockSeries: '15 Full Mocks (960 Qs)', completePrep: '15 Full Mocks + 4000+ Qs', marketStandard: '4–6 Mocks' },
   { category: 'Mock Exam Suite', feature: 'Authentic 3-Section Focus Format', freeTrial: true, mockSeries: true, completePrep: true, marketStandard: 'Partial / Legacy' },
   { category: 'Mock Exam Suite', feature: 'Section Order Selection (6 Sequences)', freeTrial: true, mockSeries: true, completePrep: true, marketStandard: false },
-  { category: 'Mock Exam Suite', feature: 'Review & Edit up to 3 Answers/Section', freeTrial: true, mockSeries: true, completePrep: true, marketStandard: false },
-  { category: 'Mock Exam Suite', feature: 'Built-in Data Insights Calculator', freeTrial: true, mockSeries: true, completePrep: true, marketStandard: 'Basic' },
   { category: 'Mock Exam Suite', feature: 'Calibrated IRT 205–805 Scoring Scale', freeTrial: true, mockSeries: true, completePrep: true, marketStandard: 'Rough Estimate' },
 
   // Explanations & Solutions

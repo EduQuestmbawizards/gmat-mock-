@@ -14,7 +14,7 @@ export interface Mock01Question {
 
 export const mock01Full64Questions: Mock01Question[] = [
   {
-    "id": "og_quan_1",
+    "id": "gmat_mock_01_q01",
     "num": 1,
     "section": "Quantitative",
     "topic": "Arithmetic",
@@ -44,11 +44,11 @@ export const mock01Full64Questions: Mock01Question[] = [
         "text": "0.25"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "Let total students be 100. Male students = 48, with $60\\%$ under 25 ($0.60 \\times 48 = 28.8$). Female students = 52, with $80\\%$ under 25 ($0.80 \\times 52 = 41.6$). Total under 25 = $28.8 + 41.6 = 70.4$. Probability $\\approx 70.4 / 100 \\approx 0.70$."
   },
   {
-    "id": "og_quan_2",
+    "id": "gmat_mock_01_q02",
     "num": 2,
     "section": "Quantitative",
     "topic": "Arithmetic",
@@ -59,30 +59,30 @@ export const mock01Full64Questions: Mock01Question[] = [
     "answerOptions": [
       {
         "key": "A",
-        "text": "18"
+        "text": "1/8"
       },
       {
         "key": "B",
-        "text": "16"
+        "text": "1/6"
       },
       {
         "key": "C",
-        "text": "15"
+        "text": "1/5"
       },
       {
         "key": "D",
-        "text": "323"
+        "text": "3/23"
       },
       {
         "key": "E",
-        "text": "423"
+        "text": "4/23"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "E",
+    "explanation": "Initially 48 cards with 8 stock cards. After 2 non-stock cards are drawn without replacement, $48 - 2 = 46$ cards remain, and all 8 stock cards are still present. Probability = $8 / 46 = 4/23$."
   },
   {
-    "id": "og_quan_3",
+    "id": "gmat_mock_01_q03",
     "num": 3,
     "section": "Quantitative",
     "topic": "Arithmetic",
@@ -112,51 +112,51 @@ export const mock01Full64Questions: Mock01Question[] = [
         "text": "89"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "D",
+    "explanation": "Total miles = $4 \\times 80 = 320$. Miles by others = $72 + 78 + 83 = 233$. Rafael = $320 - 233 = 87$ miles."
   },
   {
-    "id": "og_quan_4",
+    "id": "gmat_mock_01_q04",
     "num": 4,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "Each week, a clothing salesperson receives a commission equal to 15 percent of the first $500 in sales and 20 percent of all additional sales that week. What commission would the salesperson receive on total sales for the week of $1,300?",
+    "questionText": "Each week, a clothing salesperson receives a commission equal to 15 percent of the first \\$500 in sales and 20 percent of all additional sales that week. What commission would the salesperson receive on total sales for the week of \\$1,300?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "$195"
+        "text": "\\$195"
       },
       {
         "key": "B",
-        "text": "$227"
+        "text": "\\$227"
       },
       {
         "key": "C",
-        "text": "$235"
+        "text": "\\$235"
       },
       {
         "key": "D",
-        "text": "$260"
+        "text": "\\$260"
       },
       {
         "key": "E",
-        "text": "$335"
+        "text": "\\$335"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "C",
+    "explanation": "Commission on first $500 = $15\\% \\times 500 = \\$75$. Additional sales = $\\$1,300 - \\$500 = \\$800$. Commission on additional = $20\\% \\times 800 = \\$160$. Total commission = $\\$75 + \\$160 = \\$235\\$."
   },
   {
-    "id": "og_quan_5",
+    "id": "gmat_mock_01_q05",
     "num": 5,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "Five batches of 100 nails each are taken from a production line. The numbers of defective nails in the first four batches are 2, 4, 3, and 5, respectively. If the fifth batch has either 1, 2, or 6 defective nails, for which of these values does the average (arithmetic mean) number of defective nails per batch for the five batches equal the median number of defective nails for the five batches? 1 2 6 I only II only III only I and III only I, II, and III List S consists of 10 consecutive odd integers, and list T consists of 5 consecutive even integers. If the least integer in S is 7 more than the least integer in T, how much greater is the average (arithmetic mean) of the integers in S than the average of the integers in T ?",
+    "questionText": "List S consists of 10 consecutive odd integers, and list T consists of 5 consecutive even integers. If the least integer in S is 7 more than the least integer in T, how much greater is the average (arithmetic mean) of the integers in S than the average of the integers in T?",
     "passage": null,
     "answerOptions": [
       {
@@ -180,11 +180,11 @@ export const mock01Full64Questions: Mock01Question[] = [
         "text": "22"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "D",
+    "explanation": "Let least in T be $t$. Mean of T = $t + 4$. Least in S is $t + 7$. Mean of S = $\\frac{(t+7 + 8) + (t+7 + 10)}{2} = t + 16$. Difference = $(t + 16) - (t + 4) = 12$."
   },
   {
-    "id": "og_quan_7",
+    "id": "gmat_mock_01_q06",
     "num": 6,
     "section": "Quantitative",
     "topic": "Arithmetic",
@@ -195,64 +195,64 @@ export const mock01Full64Questions: Mock01Question[] = [
     "answerOptions": [
       {
         "key": "A",
-        "text": "$12,000"
+        "text": "\\$12,000"
       },
       {
         "key": "B",
-        "text": "$9,000"
+        "text": "\\$9,000"
       },
       {
         "key": "C",
-        "text": "$6,000"
+        "text": "\\$6,000"
       },
       {
         "key": "D",
-        "text": "$4,000"
+        "text": "\\$4,000"
       },
       {
         "key": "E",
-        "text": "$3,000"
+        "text": "\\$3,000"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "Let each employee receive $x$. Each owner receives \\$3x\\$. Total = \\$2(3x) + 10x = 16x = \\$48,000 \\Rightarrow x = \\$3,000$. Each owner = $3x = \\$9,000\\$."
   },
   {
-    "id": "og_quan_8",
+    "id": "gmat_mock_01_q07",
     "num": 7,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "On a vacation, Rose exchanged $500.00 for euros at an exchange rate of 0.80 euro per dollar and spent 34 of the euros she received. If she exchanged the remaining euros for dollars at an exchange rate of $1.20 per euro, what was the dollar amount she received?",
+    "questionText": "On a vacation, Rose exchanged $500.00 for euros at an exchange rate of 0.80 euro per dollar and spent 3/4 of the euros she received. If she exchanged the remaining euros for dollars at an exchange rate of $1.20 per euro, what was the dollar amount she received?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "$60.00"
+        "text": "\\$60.00"
       },
       {
         "key": "B",
-        "text": "$80.00"
+        "text": "\\$80.00"
       },
       {
         "key": "C",
-        "text": "$100.00"
+        "text": "\\$100.00"
       },
       {
         "key": "D",
-        "text": "$120.00"
+        "text": "\\$120.00"
       },
       {
         "key": "E",
-        "text": "$140.00"
+        "text": "\\$140.00"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "D",
+    "explanation": "Euros received = $500 \\times 0.80 = 400$. Remaining = $1/4 \\times 400 = 100$ euros. Exchanged to dollars = \\$100 \\times 1.20 = \\$120.00\\$."
   },
   {
-    "id": "og_quan_9",
+    "id": "gmat_mock_01_q08",
     "num": 8,
     "section": "Quantitative",
     "topic": "Arithmetic",
@@ -282,45 +282,45 @@ export const mock01Full64Questions: Mock01Question[] = [
         "text": "13"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "Greatest number of bouquets = $\\gcd(15, 85) = 5$."
   },
   {
-    "id": "og_quan_11",
+    "id": "gmat_mock_01_q09",
     "num": 9,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "Each day Linda spends 6 hours at her dog-walking job, for which she is paid $15.00 per hour. In addition, Linda spends a total of 1.5 hours each day, (for which she is not paid), traveling to and from the job. What is Linda\u2019s hourly rate of pay for the total amount of time that she spends each day at her dog-walking job and traveling to and from that job?",
+    "questionText": "Each day Linda spends 6 hours at her dog-walking job, for which she is paid \\$15.00 per hour. In addition, Linda spends a total of 1.5 hours each day, (for which she is not paid), traveling to and from the job. What is Linda\u2019s hourly rate of pay for the total amount of time that she spends each day at her dog-walking job and traveling to and from that job?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "$7.50"
+        "text": "\\$7.50"
       },
       {
         "key": "B",
-        "text": "$9.00"
+        "text": "\\$9.00"
       },
       {
         "key": "C",
-        "text": "$10.00"
+        "text": "\\$10.00"
       },
       {
         "key": "D",
-        "text": "$10.75"
+        "text": "\\$10.75"
       },
       {
         "key": "E",
-        "text": "$12.00"
+        "text": "\\$12.00"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "E",
+    "explanation": "Earnings = \\$6 \\times \\$15 = \\$90$. Total time = $6 + 1.5 = 7.5$ hours. Hourly rate = $\\$90 / 7.5 = \\$12.00\\$."
   },
   {
-    "id": "og_quan_12",
+    "id": "gmat_mock_01_q10",
     "num": 10,
     "section": "Quantitative",
     "topic": "Arithmetic",
@@ -331,317 +331,317 @@ export const mock01Full64Questions: Mock01Question[] = [
     "answerOptions": [
       {
         "key": "A",
-        "text": "23"
+        "text": "2/3"
       },
       {
         "key": "B",
-        "text": "34"
+        "text": "3/4"
       },
       {
         "key": "C",
-        "text": "45"
+        "text": "4/5"
       },
       {
         "key": "D",
-        "text": "43"
+        "text": "4/3"
       },
       {
         "key": "E",
-        "text": "32"
+        "text": "3/2"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "D",
+    "explanation": "Miles per gallon = $\\frac{32\\text{ miles/hr}}{24\\text{ gallons/hr}} = \\frac{4}{3}$ miles per gallon."
   },
   {
-    "id": "og_quan_13",
+    "id": "gmat_mock_01_q11",
     "num": 11,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "If snow accumulation increased at a constant rate of 30 millimeters per hour during a certain snowstorm, how many seconds did it take for snow accumulation to increase by 1 millimeter?",
+    "questionText": "If snow accumulation increased at a constant rate of 30 millimeters per hour during a 12-hour blizzard, what was the total snow accumulation, in meters, for this blizzard? (1 meter = 1,000 millimeters)",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "1120"
+        "text": "0.036"
       },
       {
         "key": "B",
-        "text": "160"
+        "text": "0.36"
       },
       {
         "key": "C",
-        "text": "120"
+        "text": "3.6"
       },
       {
         "key": "D",
-        "text": "20"
+        "text": "36"
       },
       {
         "key": "E",
-        "text": "120"
+        "text": "360"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "Total accumulation = $30\\text{ mm/hr} \\times 12\\text{ hr} = 360\\text{ mm} = 0.36\\text{ meters}$."
   },
   {
-    "id": "og_quan_14",
+    "id": "gmat_mock_01_q12",
     "num": 12,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "From 2000 to 2003, the number of employees at a certain company increased by a factor of 14. From 2003 to 2006, the number of employees at this company decreased by a factor of 13. If there were 100 employees at the company in 2006, how many employees were there at the company in 2000?",
+    "questionText": "If $x = 2$, what is the value of $x^3(x^2 - x) - x(x^2 - x)$?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "200"
+        "text": "12"
       },
       {
         "key": "B",
-        "text": "120"
+        "text": "14"
       },
       {
         "key": "C",
-        "text": "100"
+        "text": "16"
       },
       {
         "key": "D",
-        "text": "75"
+        "text": "18"
       },
       {
         "key": "E",
-        "text": "60"
+        "text": "20"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "Substitute $x = 2$: $x^2 - x = 4 - 2 = 2$. Then $2^3(2) - 2(2) = 8(2) - 4 = 16 - 4 = 12$."
   },
   {
-    "id": "og_quan_15",
+    "id": "gmat_mock_01_q13",
     "num": 13,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "Working alone at its own constant rate, machine R fills 10,000 boxes with pins in 9 hours, and working alone at its own constant rate, machine S fills 5,000 boxes with pins in 3 hours. If machine R and machine S, each working at its own constant rate and for the same period of time, together filled a certain number of boxes with pins, what percent of the boxes were filled by machine R?",
+    "questionText": "A certain machine produces 1,000 pins per hour. A second machine produces 1,500 pins per hour. Working simultaneously, how many hours will it take the two machines to produce 10,000 pins?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "25%"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "33%"
+        "text": "3"
       },
       {
         "key": "C",
-        "text": "40%"
+        "text": "4"
       },
       {
         "key": "D",
-        "text": "66%"
+        "text": "5"
       },
       {
         "key": "E",
-        "text": "75%"
+        "text": "6"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "C",
+    "explanation": "Combined rate = $1,000 + 1,500 = 2,500$ pins/hr. Time = $10,000 / 2,500 = 4$ hours."
   },
   {
-    "id": "og_quan_16",
+    "id": "gmat_mock_01_q14",
     "num": 14,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "A collection of 16 coins, each with a face value of either 10 cents or 25 cents, has a total face value of $2.35. How many of the coins have a face value of 25 cents?",
+    "questionText": "If $x$ and $y$ are positive integers such that $x + y = 20$ and $x - y = 4$, what is the value of $x^2 - y^2$?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "3"
+        "text": "16"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "40"
       },
       {
         "key": "C",
-        "text": "7"
+        "text": "64"
       },
       {
         "key": "D",
-        "text": "9"
+        "text": "80"
       },
       {
         "key": "E",
-        "text": "11"
+        "text": "96"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "D",
+    "explanation": "$x^2 - y^2 = (x+y)(x-y) = 20 \\times 4 = 80$."
   },
   {
-    "id": "og_quan_17",
+    "id": "gmat_mock_01_q15",
     "num": 15,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "A retailer purchased eggs at $2.80 per dozen and sold the eggs at 3 eggs for $0.90. What was the retailer\u2019s gross profit from purchasing and selling 5 dozen eggs? (1 dozen eggs = 12 eggs)?",
+    "questionText": "A train travels at an average speed of 60 miles per hour for the first 3 hours of a trip and at an average speed of 45 miles per hour for the remaining 2 hours. What is the average speed, in miles per hour, for the entire trip?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "$0.90"
+        "text": "51"
       },
       {
         "key": "B",
-        "text": "$2.40"
+        "text": "52.5"
       },
       {
         "key": "C",
-        "text": "$4.00"
+        "text": "54"
       },
       {
         "key": "D",
-        "text": "$11.30"
+        "text": "55"
       },
       {
         "key": "E",
-        "text": "$12.00"
+        "text": "56"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "C",
+    "explanation": "Total distance = $60 \\times 3 + 45 \\times 2 = 180 + 90 = 270$ miles. Total time = $3 + 2 = 5$ hours. Average speed = $270 / 5 = 54$ mph."
   },
   {
-    "id": "og_quan_18",
+    "id": "gmat_mock_01_q16",
     "num": 16,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "In a set of 24 cards, each card is numbered with a different positive integer from 1 to 24. One card will be drawn at random from the set. What is the probability that the card drawn will have either a number that is divisible by both 2 and 3 or a number that is divisible by 7?",
+    "questionText": "If $3^{2x} = 81$, what is the value of $x$?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "324"
+        "text": "1"
       },
       {
         "key": "B",
-        "text": "424"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "724"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "824"
+        "text": "4"
       },
       {
         "key": "E",
-        "text": "1724"
+        "text": "5"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "$81 = 3^4 \\Rightarrow 2x = 4 \\Rightarrow x = 2$."
   },
   {
-    "id": "og_quan_19",
+    "id": "gmat_mock_01_q17",
     "num": 17,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "As a salesperson, Phyllis can choose one of two methods of annual payment: either an annual salary of $35,000 with no commission or an annual salary of $10,000 plus a 20% commission on her total annual sales. What must her total annual sales be to give her the same annual pay with either method?",
+    "questionText": "A store purchased 20 coats for \\$50 each and sold all 20 coats. If 15 coats were sold for \\$80 each and the remaining 5 coats were sold for \\$60 each, what was the store's total gross profit on the 20 coats?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "$100,000"
+        "text": "\\$400"
       },
       {
         "key": "B",
-        "text": "$120,000"
+        "text": "\\$450"
       },
       {
         "key": "C",
-        "text": "$125,000"
+        "text": "\\$500"
       },
       {
         "key": "D",
-        "text": "$130,000"
+        "text": "\\$550"
       },
       {
         "key": "E",
-        "text": "$132,000"
+        "text": "\\$600"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "C",
+    "explanation": "Cost = \\$20 \\times 50 = \\$1,000$. Revenue = $15 \\times 80 + 5 \\times 60 = 1200 + 300 = \\$1,500$. Profit = $\\$1,500 - \\$1,000 = \\$500\\$."
   },
   {
-    "id": "og_quan_20",
+    "id": "gmat_mock_01_q18",
     "num": 18,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "If 1<x<y<z, which of the following has the greatest value?",
+    "questionText": "If $\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5}$, and $x + y + z = 36$, what is the value of $y$?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "z(x+1)"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "z(y+1)"
+        "text": "12"
       },
       {
         "key": "C",
-        "text": "x(y+z)"
+        "text": "15"
       },
       {
         "key": "D",
-        "text": "y(x+z)"
+        "text": "16"
       },
       {
         "key": "E",
-        "text": "z(x+y)"
+        "text": "18"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "Let $x = 3k, y = 4k, z = 5k$. $3k + 4k + 5k = 12k = 36 \\Rightarrow k = 3$. Then $y = 4(3) = 12$."
   },
   {
-    "id": "og_quan_21",
+    "id": "gmat_mock_01_q19",
     "num": 19,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "Set X consists of eight consecutive integers. Set Y consists of all the integers that result from adding 4 to each of the integers in Set X and all the integers that result from subtracting 4 from each of the integers in Set X. How many more integers are there in Set Y than in Set X?",
+    "questionText": "If $n$ is an integer and $(n - 2)^2 = 36$, what is the greatest possible value of $n$?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "0"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "6"
       },
       {
         "key": "C",
@@ -649,874 +649,874 @@ export const mock01Full64Questions: Mock01Question[] = [
       },
       {
         "key": "D",
-        "text": "12"
+        "text": "10"
       },
       {
         "key": "E",
-        "text": "16"
+        "text": "12"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "C",
+    "explanation": "$n - 2 = \\pm 6 \\Rightarrow n = 8$ or $n = -4$. Greatest value = 8."
   },
   {
-    "id": "og_quan_22",
+    "id": "gmat_mock_01_q20",
     "num": 20,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "Of the following, which is the closest to 60.21.03\u00d74.86?",
+    "questionText": "What is the median of the following set of numbers: 14, 22, 17, 35, 19, 28, 41?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "10"
+        "text": "19"
       },
       {
         "key": "B",
-        "text": "12"
+        "text": "22"
       },
       {
         "key": "C",
-        "text": "13"
+        "text": "25"
       },
       {
         "key": "D",
-        "text": "14"
+        "text": "28"
       },
       {
         "key": "E",
-        "text": "15"
+        "text": "35"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "Ordered set: 14, 17, 19, 22, 28, 35, 41. The 4th of 7 numbers is 22."
   },
   {
-    "id": "og_quan_23",
+    "id": "gmat_mock_01_q21",
     "num": 21,
     "section": "Quantitative",
     "topic": "Arithmetic",
     "subtopic": "OG 2025-2026 Official Question Bank",
     "difficulty": "Easy",
-    "questionText": "Thabo owns exactly 140 books, and each book is either paperback fiction, paperback nonfiction, or hardcover nonfiction. If he owns 20 more paperback nonfiction books than hardcover nonfiction books, and twice as many paperback fiction books as paperback nonfiction books, how many hardcover nonfiction books does Thabo own?",
+    "questionText": "Thabo owns exactly 140 books, and each book is either paperback fiction, paperback nonfiction, or hardcover nonfiction. If he owns 20 more paperback fiction books than paperback nonfiction books, and twice as many hardcover nonfiction books as paperback nonfiction books, how many paperback fiction books does he own?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "10"
-      },
-      {
-        "key": "B",
-        "text": "20"
-      },
-      {
-        "key": "C",
         "text": "30"
       },
       {
+        "key": "B",
+        "text": "50"
+      },
+      {
+        "key": "C",
+        "text": "60"
+      },
+      {
         "key": "D",
-        "text": "40"
+        "text": "70"
       },
       {
         "key": "E",
-        "text": "50"
+        "text": "80"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "Let paperback nonfiction = $x$. Paperback fiction = $x + 20$. Hardcover nonfiction = \\$2x\\$. Total = $(x + 20) + x + 2x = 4x + 20 = 140 \\Rightarrow 4x = 120 \\Rightarrow x = 30$. Paperback fiction = $30 + 20 = 50$."
   },
   {
-    "id": "og_verb_1",
+    "id": "gmat_mock_01_q22",
     "num": 22,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "Find a passage\u2019s overall theme or point Find a specific detail Summarize a set of statements Tell if an idea is stated or implied Tell what a word or phrase means in context Analyze reasoning structure Identify premises, conclusions, explanations, argument techniques, reasons for plans, and background information Tell what argument technique someone uses Tell a statement\u2019s role in a passage Apply ideas in new contexts Use general ideas in new situations the passage doesn\u2019t discuss Decide which new situation is most like one in the passage Tell which new action would follow or break a rule in the passage Decide which new example would best illustrate an idea in the passage Infer Draw an unstated conclusion from a passage Decide which conclusion a passage most strongly supports Tell what follows logically from information given Decide what a stated opinion implies Recognize an author\u2019s attitude from word choices Identify unstated assumptions Find an assumption that fills a logical gap in an argument, explanation, or plan Find an assumption an argument depends on Find an assumption that makes an argument\u2019s conclusion follow logically Tell what must happen for a plan to succeed Evaluate hypotheses Judge explanations for a situation Decide what would most help explain why a plan failed Decide what most likely caused an observed effect Resolve discrepancies Explain or justify an apparent conflict between two statements or situations Explain why a factor didn\u2019t cause its usual effect Decide which principle resolves a conflict between two opinions Strengthen or weaken reasoning Identify new information that either supports or undermines an argument, explanation, plan, or claim Tell which discovery would cast the most doubt on an argument\u2019s reasoning Tell what added evidence would best support a causal explanation Identify reasoning flaws Identify mistakes such as confusing correlation with causation or confusing a sufficient assumption with a necessary one Decide which observation points to a reasoning flaw Tell which criticism an argument is most vulnerable to Identify points of disagreement Tell what two parties disagree about, based on their statements Find the main implied point of disagreement in a dialogue Solve a practical problem Recognize a good strategy for solving a problem Find a way of sampling a population accurately despite an obstacle 8.2 Question Types Reading Comprehension and Critical Reasoning are the two main Verbal Reasoning question types. Each has several subtypes. During the test, the subtypes aren\u2019t labeled. Each question tells you what you need to do. 1. Reading Comprehension The five Reading Comprehension question subtypes are Main Idea, Supporting Idea, Inference, Application, and Evaluation. Each tests a different main skill, but sometimes the skills overlap. For example, to find a passage\u2019s main idea, you must understand the passage\u2019s logical and rhetorical structure. To make inferences or apply ideas from a passage, you often must find its main and supporting ideas. Below, we discuss the Reading Comprehension question subtypes.",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "The primary purpose of the passage is to:",
+    "passage": "Passage 1 (Neuroscience): The consolidation of short-term memory traces into enduring long-term synaptic architectures requires cyclic-AMP response element-binding protein (CREB) activation within the hippocampus. While early models viewed memory as static data storage, modern neurobiology demonstrates that memory retrieval temporarily destabilizes the synaptic trace, initiating a protein synthesis-dependent process termed 'reconsolidation'. During this labile window, memories can be strengthened, altered, or attenuated through pharmacological intervention.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "Main Idea In each passage, all the sentences and paragraphs develop one central point or share one overall purpose. A Main Idea question asks you to find this central point or purpose. Sometimes the passage tells you its central point. Other times you must infer it from the passage\u2019s structure and content."
+        "text": "challenge the view that memory retrieval is a passive playback of fixed neurological data"
       },
       {
         "key": "B",
-        "text": "A Main Idea question may ask which answer option best restates the central point, best explains the author\u2019s main goal for the passage, or works best as a title for the passage."
+        "text": "prove that pharmacological agents can permanently erase traumatic human memories"
       },
       {
         "key": "C",
-        "text": "Main Idea questions use phrases like these: . . . most accurately expresses the main idea . . ., The primary purpose of the passage as a whole is to . . ., or In the passage, the author seeks primarily to. . . ."
+        "text": "describe the chemical synthesis of CREB proteins in mammalian neurons"
       },
       {
         "key": "D",
-        "text": "The right answer to a Main Idea question about an argumentative passage often restates or describes the main conclusion of the main argument. To find the main conclusion, you must notice which statements in the passage are given as reasons to accept which other statements. The main conclusion is an idea that the whole passage gives reasons to accept, but that isn\u2019t in turn given as a reason to accept some further conclusion."
+        "text": "argue that hippocampal reconsolidation is a pathological defect in cognitive processing"
       },
       {
         "key": "E",
-        "text": "When the passage isn\u2019t argumentative, the right answer to a Main Idea question usually gives the passage\u2019s overall theme or purpose. The overall theme is often an idea repeated in different paragraphs. The overall purpose is usually a goal toward which all the paragraphs work. If the passage has no overall theme or purpose, the right answer may just summarize the passage. For example, the right answer to a Main Idea question about a narrative passage might summarize the events described or state their overall outcome."
+        "text": "contrast human memory storage with digital computer storage systems"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "The passage shows memory retrieval is not passive playback but destabilizes traces via reconsolidation."
   },
   {
-    "id": "og_verb_2",
+    "id": "gmat_mock_01_q23",
     "num": 23,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The passage mentions each of the following as a function regulated by the SCNs in some animals EXCEPT?",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "According to the passage, memory reconsolidation differs from classical memory consolidation primarily because reconsolidation:",
+    "passage": "Passage 1 (Neuroscience): The consolidation of short-term memory traces into enduring long-term synaptic architectures requires cyclic-AMP response element-binding protein (CREB) activation within the hippocampus. While early models viewed memory as static data storage, modern neurobiology demonstrates that memory retrieval temporarily destabilizes the synaptic trace, initiating a protein synthesis-dependent process termed 'reconsolidation'. During this labile window, memories can be strengthened, altered, or attenuated through pharmacological intervention.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "activity level"
+        "text": "occurs only in the absence of CREB protein activation"
       },
       {
         "key": "B",
-        "text": "blood pressure"
+        "text": "is triggered following the active retrieval of an already established memory trace"
       },
       {
         "key": "C",
-        "text": "alertness"
+        "text": "operates independently of cellular protein synthesis"
       },
       {
         "key": "D",
-        "text": "vision"
+        "text": "prevents the long-term stabilization of traumatic memories"
       },
       {
         "key": "E",
-        "text": "temperature"
+        "text": "is restricted to motor cortex sensory pathways"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "The text explains reconsolidation occurs when retrieval destabilizes the trace, initiating new synthesis."
   },
   {
-    "id": "og_verb_3",
+    "id": "gmat_mock_01_q24",
     "num": 24,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The author of the passage would probably agree with which of the following statements about the SCNs?",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "The author's discussion of the 'labile window' implies that during this interval, memories are particularly:",
+    "passage": "Passage 1 (Neuroscience): The consolidation of short-term memory traces into enduring long-term synaptic architectures requires cyclic-AMP response element-binding protein (CREB) activation within the hippocampus. While early models viewed memory as static data storage, modern neurobiology demonstrates that memory retrieval temporarily destabilizes the synaptic trace, initiating a protein synthesis-dependent process termed 'reconsolidation'. During this labile window, memories can be strengthened, altered, or attenuated through pharmacological intervention.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "The SCNs are found in other organs and tissues of the body besides the hypothalamus."
+        "text": "immune to environmental interference"
       },
       {
         "key": "B",
-        "text": "The SCNs play a critical but not exclusive role in regulating circadian rhythms."
+        "text": "susceptible to modification or attenuation"
       },
       {
         "key": "C",
-        "text": "The SCNs control clock genes in a number of tissues and organs throughout the body."
+        "text": "inaccessible to conscious cognitive recall"
       },
       {
         "key": "D",
-        "text": "The SCNs are a less significant factor in regulating blood pressure than scientists once believed."
+        "text": "dominated by rapid cerebellar motor reflexes"
       },
       {
         "key": "E",
-        "text": "The SCNs are less strongly affected by changes in light levels than they are by other external cues."
+        "text": "converted directly into epigenetic modifications"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "The passage states 'During this labile window, memories can be strengthened, altered, or attenuated'."
   },
   {
-    "id": "og_verb_4",
+    "id": "gmat_mock_01_q25",
     "num": 25,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The primary purpose of the passage is to?",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "Which of the following, if true, provides the strongest experimental validation of the reconsolidation model?",
+    "passage": "Passage 1 (Neuroscience): The consolidation of short-term memory traces into enduring long-term synaptic architectures requires cyclic-AMP response element-binding protein (CREB) activation within the hippocampus. While early models viewed memory as static data storage, modern neurobiology demonstrates that memory retrieval temporarily destabilizes the synaptic trace, initiating a protein synthesis-dependent process termed 'reconsolidation'. During this labile window, memories can be strengthened, altered, or attenuated through pharmacological intervention.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "question the results of a study that examined the effect of service-quality guarantees in the restaurant industry"
+        "text": "Administering a protein-synthesis inhibitor immediately after memory recall prevents the memory from re-stabilizing, diminishing long-term retention."
       },
       {
         "key": "B",
-        "text": "discuss potential advantages and disadvantages of service-quality guarantees in the restaurant industry"
+        "text": "Hippocampal neurons fire at lower frequencies during non-REM sleep."
       },
       {
         "key": "C",
-        "text": "examine the conventional wisdom regarding the effect of service-quality guarantees in the restaurant industry"
+        "text": "Patients with damage to the prefrontal cortex retain normal motor reflexes."
       },
       {
         "key": "D",
-        "text": "argue that only certain restaurants would benefit from the implementation of service-quality guarantees"
+        "text": "Genetic sequencing reveals conserved CREB genes across vertebrate species."
       },
       {
         "key": "E",
-        "text": "consider the impact that service-quality guarantees can have on the service provided by a restaurant"
+        "text": "Visual memory decay rates are identical in primates and rodents."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "If blocking protein synthesis right after recall impairs retention, it proves reconsolidation is protein-synthesis dependent."
   },
   {
-    "id": "og_verb_5",
+    "id": "gmat_mock_01_q26",
     "num": 26,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "It can be inferred that the author of the passage would agree with which of the following statements about the appeal of service guarantees to customers?",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "The author's tone toward modern neurobiological discoveries regarding memory reconsolidation is best characterized as:",
+    "passage": "Passage 1 (Neuroscience): The consolidation of short-term memory traces into enduring long-term synaptic architectures requires cyclic-AMP response element-binding protein (CREB) activation within the hippocampus. While early models viewed memory as static data storage, modern neurobiology demonstrates that memory retrieval temporarily destabilizes the synaptic trace, initiating a protein synthesis-dependent process termed 'reconsolidation'. During this labile window, memories can be strengthened, altered, or attenuated through pharmacological intervention.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "Such guarantees are likely to be somewhat more appealing to customers of restaurants than to customers of other businesses."
+        "text": "skeptical"
       },
       {
         "key": "B",
-        "text": "Such guarantees are likely to be more appealing to customers who know what to anticipate in terms of service."
+        "text": "objective and expository"
       },
       {
         "key": "C",
-        "text": "Such guarantees are likely to have less appeal in situations where customers are knowledgeable about a business\u2019s product or service."
+        "text": "dismissive"
       },
       {
         "key": "D",
-        "text": "In situations where a high level of financial commitment is involved, a service guarantee is not likely to be very appealing."
+        "text": "cautiously alarmist"
       },
       {
         "key": "E",
-        "text": "In situations where customers expect a high level of customer service, a service guarantee is likely to make customers think that a business is worried about its service."
+        "text": "nostalgic"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "The author presents scientific findings with analytical clarity and objective exposition."
   },
   {
-    "id": "og_verb_6",
+    "id": "gmat_mock_01_q27",
     "num": 27,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "According to the passage, Tucci and Talaga found that service guarantees, when offered by lower-priced restaurants, can have which of the following effects?",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "The author is primarily concerned with:",
+    "passage": "Passage 2 (Behavioral Economics): Classical economic models postulate that agents possess stable, time-consistent preferences and maximize expected utility through rational computation. However, empirical behavioral economics consistently observes 'hyperbolic discounting', wherein individuals display an extreme preference for immediate rewards over future gains, even when the delayed payoffs are objectively superior. In response, behavioral policy architectures employ 'nudges'\u2014choice architecture modifications such as default auto-enrollment in retirement savings plans\u2014that channel predictable cognitive biases toward socially optimal outcomes without restricting choice sets. Critics contend that nudges risk insidious paternalism, but proponents argue that since choice architectures are inherently non-neutral, constructing defaults that counteract self-destructive myopia is both justifiable and necessary.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "Customers\u2019 developing unreasonably high expectations regarding service"
+        "text": "explaining how hyperbolic discounting causes suboptimal intertemporal choices and how choice architecture seeks to address it"
       },
       {
         "key": "B",
-        "text": "Customers\u2019 avoiding such restaurants because they fear that the service guarantee may not be fully honored"
+        "text": "advocating for mandatory government pension programs across developing economies"
       },
       {
         "key": "C",
-        "text": "Customers\u2019 interpreting the service guarantee as a sign that management is not confident about the quality of its service"
+        "text": "demonstrating that classical exponential discounting is mathematically impossible"
       },
       {
         "key": "D",
-        "text": "A restaurant\u2019s becoming concerned that its service will not be assiduous enough to satisfy customers"
+        "text": "criticizing behavioral economists for infringing upon consumer autonomy"
       },
       {
         "key": "E",
-        "text": "A restaurant\u2019s becoming concerned that customers will be more emboldened to question the quality of the service they receive"
+        "text": "analyzing the statistical variance of corporate retirement portfolio yields"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "The passage explains hyperbolic discounting, present-bias, and how nudge interventions correct it."
   },
   {
-    "id": "og_verb_7",
+    "id": "gmat_mock_01_q28",
     "num": 28,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The passage suggests that in the study mentioned in line 14, the method for gathering information about security of land tenure reflects which of the following pairs of assumptions about Tawahka society?",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "Proponents of 'nudge' policies defend the approach against charges of paternalism by emphasizing that nudges:",
+    "passage": "Passage 2 (Behavioral Economics): Classical economic models postulate that agents possess stable, time-consistent preferences and maximize expected utility through rational computation. However, empirical behavioral economics consistently observes 'hyperbolic discounting', wherein individuals display an extreme preference for immediate rewards over future gains, even when the delayed payoffs are objectively superior. In response, behavioral policy architectures employ 'nudges'\u2014choice architecture modifications such as default auto-enrollment in retirement savings plans\u2014that channel predictable cognitive biases toward socially optimal outcomes without restricting choice sets. Critics contend that nudges risk insidious paternalism, but proponents argue that since choice architectures are inherently non-neutral, constructing defaults that counteract self-destructive myopia is both justifiable and necessary.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "The security of a household\u2019s land tenure depends on the strength of that household\u2019s kinship ties, and the duration of a household\u2019s residence in its village is an indication of the strength of that household\u2019s kinship ties."
+        "text": "eliminate all administrative transaction fees for consumer banking"
       },
       {
         "key": "B",
-        "text": "The ample availability of land makes security of land tenure unimportant, and the lack of a need for secure land tenure has made the concept of legal property rights unnecessary."
+        "text": "retain the individual's ability to opt out or choose alternative options"
       },
       {
         "key": "C",
-        "text": "The strength of a household\u2019s kinship ties is a more reliable indicator of that household\u2019s receptivity to new agricultural technologies than is its quantity of nonland wealth, and the duration of a household\u2019s residence in its village is a more reliable indicator of that household\u2019s security of land tenure than is the strength of its kinship ties."
+        "text": "impose legal criminal penalties for failing to save for retirement"
       },
       {
         "key": "D",
-        "text": "Security of land tenure based on kinship ties tends to make farmers more receptive to the use of improved plant varieties, and security of land tenure based on long duration of residence in a village tends to make farmers more receptive to the use of chemical herbicides."
+        "text": "operate solely through educational classroom lectures"
       },
       {
         "key": "E",
-        "text": "A household is more likely to be receptive to the concept of land tenure based on legal property rights if it has easy access to uncultivated land, and a household is more likely to uphold the tradition of land tenure based on kinship ties if it possesses a significant degree of nonland wealth."
+        "text": "enforce uniform savings rates across all income brackets"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "Proponents argue nudges 'preserve freedom of choice' while guiding behavior beneficially."
   },
   {
-    "id": "og_verb_8",
+    "id": "gmat_mock_01_q29",
     "num": 29,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "According to the passage, the proposal mentioned in line 1 is aimed at preserving rain forests by encouraging farmers in rain-forest regions to do each of the following EXCEPT?",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "The passage suggests that an agent exhibiting hyperbolic discounting would most likely:",
+    "passage": "Passage 2 (Behavioral Economics): Classical economic models postulate that agents possess stable, time-consistent preferences and maximize expected utility through rational computation. However, empirical behavioral economics consistently observes 'hyperbolic discounting', wherein individuals display an extreme preference for immediate rewards over future gains, even when the delayed payoffs are objectively superior. In response, behavioral policy architectures employ 'nudges'\u2014choice architecture modifications such as default auto-enrollment in retirement savings plans\u2014that channel predictable cognitive biases toward socially optimal outcomes without restricting choice sets. Critics contend that nudges risk insidious paternalism, but proponents argue that since choice architectures are inherently non-neutral, constructing defaults that counteract self-destructive myopia is both justifiable and necessary.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "adopt new agricultural technologies"
+        "text": "prefer \\$100 today over \\$110 tomorrow, but prefer \\$110 in 31 days over \\$100 in 30 days"
       },
       {
         "key": "B",
-        "text": "grow improved plant varieties"
+        "text": "always choose the larger payoff regardless of time delay"
       },
       {
         "key": "C",
-        "text": "decrease their use of chemical herbicides"
+        "text": "discount all future cash flows at a constant 5% annual rate"
       },
       {
         "key": "D",
-        "text": "increase their productivity"
+        "text": "refuse to participate in voluntary employer retirement matching plans"
       },
       {
         "key": "E",
-        "text": "reduce their need to clear new land for cultivation"
+        "text": "accurately predict their own future consumption preferences decades in advance"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "Hyperbolic discounting exhibits sharp present-bias in the short term, but rational patience over distant intervals."
   },
   {
-    "id": "og_verb_9",
+    "id": "gmat_mock_01_q30",
     "num": 30,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "Information in the passage suggests that David Pearce would most readily endorse which of the following statements concerning monetization?",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "Which of the following describes the relationship between the first and second sentences of the passage?",
+    "passage": "Passage 2 (Behavioral Economics): Classical economic models postulate that agents possess stable, time-consistent preferences and maximize expected utility through rational computation. However, empirical behavioral economics consistently observes 'hyperbolic discounting', wherein individuals display an extreme preference for immediate rewards over future gains, even when the delayed payoffs are objectively superior. In response, behavioral policy architectures employ 'nudges'\u2014choice architecture modifications such as default auto-enrollment in retirement savings plans\u2014that channel predictable cognitive biases toward socially optimal outcomes without restricting choice sets. Critics contend that nudges risk insidious paternalism, but proponents argue that since choice architectures are inherently non-neutral, constructing defaults that counteract self-destructive myopia is both justifiable and necessary.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "Monetization represents a strategy that is attractive to both environmentalists and their critics."
+        "text": "The first states an empirical observation; the second provides a mathematical proof."
       },
       {
         "key": "B",
-        "text": "Monetization is an untested strategy, but it is increasingly being embraced by environmentalists."
+        "text": "The first describes a traditional theoretical assumption; the second introduces empirical findings that challenge it."
       },
       {
         "key": "C",
-        "text": "Monetization should at present be restricted to ecological services and should only gradually be extended to such commercial endeavors as tourism and recreation."
+        "text": "The first outlines a government policy; the second describes public opposition to it."
       },
       {
         "key": "D",
-        "text": "Monetization can serve as a means of representing persuasively the value of environmental conservation."
+        "text": "The first presents a hypothesis; the second proves that the hypothesis is universally true."
       },
       {
         "key": "E",
-        "text": "Monetization should inform environmental decision-making processes only if it is accepted by environmentalist groups."
+        "text": "The first defines a behavioral bias; the second attributes it to neurological anatomy."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "Sentence 1 outlines classical exponential discounting; Sentence 2 introduces empirical findings showing hyperbolic discounting."
   },
   {
-    "id": "og_verb_10",
+    "id": "gmat_mock_01_q31",
     "num": 31,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "Which of the following most clearly represents an example of an \u201cecological service\u201d as that term is used in line 20?",
-    "passage": null,
+    "topic": "Reading-Comprehension",
+    "subtopic": "Reading Comprehension Advanced Inference & Tone Mastery",
+    "difficulty": "Medium",
+    "questionText": "The author's description of automatic retirement enrollment programs implies that such policies:",
+    "passage": "Passage 2 (Behavioral Economics): Classical economic models postulate that agents possess stable, time-consistent preferences and maximize expected utility through rational computation. However, empirical behavioral economics consistently observes 'hyperbolic discounting', wherein individuals display an extreme preference for immediate rewards over future gains, even when the delayed payoffs are objectively superior. In response, behavioral policy architectures employ 'nudges'\u2014choice architecture modifications such as default auto-enrollment in retirement savings plans\u2014that channel predictable cognitive biases toward socially optimal outcomes without restricting choice sets. Critics contend that nudges risk insidious paternalism, but proponents argue that since choice architectures are inherently non-neutral, constructing defaults that counteract self-destructive myopia is both justifiable and necessary.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "A resort hotel located in an area noted for its natural beauty"
+        "text": "exploit human inertia and default bias to encourage higher long-term personal savings"
       },
       {
         "key": "B",
-        "text": "A water-purifying plant that supplements natural processes with nontoxic chemicals"
+        "text": "decrease total pension fund capital reserves over time"
       },
       {
         "key": "C",
-        "text": "A wildlife preserve that draws many international travelers"
+        "text": "require employees to sacrifice their salary increases permanently"
       },
       {
         "key": "D",
-        "text": "A nonprofit firm that specializes in restoring previously damaged ecosystems"
+        "text": "are ineffective when applied to younger demographic cohorts"
       },
       {
         "key": "E",
-        "text": "A newsletter that keeps readers informed of ecological victories and setbacks"
+        "text": "violate federal labor regulations in most Western economies"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "Automatic enrollment leverages default choice architecture to counter present-bias and under-saving."
   },
   {
-    "id": "og_verb_11",
+    "id": "gmat_mock_01_q32",
     "num": 32,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "According to the passage, Daily sees monetization as an indication of which of the following?",
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "City X introduced an automated toll system on bridges to decrease morning traffic delays. One month later, delays increased by 15%. Thus, the automated system failed to achieve its goal.\n\nWhich of the following, if true, most seriously WEAKENS the conclusion above?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "The centrality of economic interests to people\u2019s actions"
+        "text": "A major highway construction project forced 40% more commuters onto the bridges during the month."
       },
       {
         "key": "B",
-        "text": "The reluctance of the critics of environmentalism to acknowledge the importance of conservation"
+        "text": "Many drivers complained that the automated toll system was difficult to navigate initially."
       },
       {
         "key": "C",
-        "text": "The inability of financial interests and ecological interests to reach a common ideological ground"
+        "text": "Neighboring City Y implemented a similar toll system two years ago with mixed results."
       },
       {
         "key": "D",
-        "text": "The inevitability of environmental degradation"
+        "text": "The cost of maintaining the automated system exceeded initial budget projections."
       },
       {
         "key": "E",
-        "text": "The inevitability of the growth of ecological services in the future"
+        "text": "Public transportation usage in City X dropped slightly during the same month."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "If a major construction project diverted 40% more traffic onto the bridges, this external event explains the increased delays, weakening the conclusion that the automated system caused or failed to reduce delays."
   },
   {
-    "id": "og_verb_12",
+    "id": "gmat_mock_01_q33",
     "num": 33,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "Which of the following can be inferred from the passage concerning the environmentalists mentioned in line 8?",
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "Company A observed that employees attending wellness workshops take 25% fewer sick days. The HR director concluded that attending workshops directly improves physical health.\n\nWhich of the following is an ASSUMPTION required by the HR director\u2019s conclusion?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "They are organized in opposition to the generation of income produced by the sale of ecological services."
+        "text": "Employees who choose to attend wellness workshops were not already more health-conscious prior to attending."
       },
       {
         "key": "B",
-        "text": "They are fewer in number but better organized and better connected to the media than their opponents."
+        "text": "Company A spends more money on wellness workshops than on medical leave benefits."
       },
       {
         "key": "C",
-        "text": "They have sometimes been charged with failing to use a particular strategy in their pursuit of conservational goals."
+        "text": "All employees have equal access to the wellness workshop schedules."
       },
       {
         "key": "D",
-        "text": "They have been in the forefront of publicizing the extent of worldwide environmental degradation."
+        "text": "Wellness workshops focus primarily on physical exercise rather than stress management."
       },
       {
         "key": "E",
-        "text": "They define environmental progress differently and more conservatively than do other organized groups of environmentalists."
+        "text": "No employee attended more than three wellness workshops in a single year."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "To establish causation (workshops improve health), the argument must assume self-selection bias is absent\u2014that workshop attendees were not already healthier or more health-conscious."
   },
   {
-    "id": "og_verb_13",
+    "id": "gmat_mock_01_q34",
     "num": 34,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "Which of the following best describes the main purpose of the first paragraph of the passage?",
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "Plan: To reduce urban air pollution, the mayor proposes subsidizing electric bicycles.\nGoal: Significantly reduce carbon emissions from commuter vehicles within two years.\n\nWhich of the following, if true, provides the strongest reason to believe that the plan will NOT achieve its goal?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "It explains why a particular behavior discussed in the remainder of the passage is beneficial to the animals that engage in it."
+        "text": "Most electric bicycle purchasers will replace walking or pedal bicycle trips, rather than automobile commutes."
       },
       {
         "key": "B",
-        "text": "It introduces a concept that has been widely misunderstood among nonscientists."
+        "text": "Electric bicycles travel at lower maximum speeds than gasoline-powered cars."
       },
       {
         "key": "C",
-        "text": "It outlines the types of studies that have been conducted to investigate a certain animal behavior."
+        "text": "The city electricity grid relies partially on natural gas power plants."
       },
       {
         "key": "D",
-        "text": "It provides information necessary to understand the nature of the phenomenon discussed in the remainder of the passage."
+        "text": "Other major cities have successfully implemented electric car charging networks."
       },
       {
         "key": "E",
-        "text": "It describes a viewpoint that is called into question later in the passage."
+        "text": "Subsidizing electric bicycles will require a small increase in municipal property taxes."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "If electric bike buyers substitute zero-emission walking or cycling trips rather than car commutes, automobile emissions will remain unchanged, failing the goal."
   },
   {
-    "id": "og_verb_14",
+    "id": "gmat_mock_01_q35",
     "num": 35,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "According to the passage, Sherwin\u2019s research team speculated the social learning of unpalatability within a particular species might be discouraged if the animals?",
-    "passage": null,
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "Based on the passage, an investor experiencing loss aversion is most likely to:",
+    "passage": "For decades, economists assumed that market participants make strictly rational decisions aimed at maximizing individual utility. However, behavioral economics has demonstrated that cognitive biases\u2014such as loss aversion and anchoring\u2014consistently skew human decision-making. Loss aversion dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. Consequently, investors frequently retain declining assets longer than financial logic dictates, driven by an irrational urge to avoid realizing a loss.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "did not suffer serious effects from any noxious or toxic foods they ingested"
+        "text": "Hold onto a depreciating stock longer than a strictly rational economic model would advise."
       },
       {
         "key": "B",
-        "text": "consumed food in small quantities throughout the day rather than in a few large feedings"
+        "text": "Immediately sell any asset experiencing a minor market fluctuation."
       },
       {
         "key": "C",
-        "text": "had an unusually large variety of foods available to them"
+        "text": "Diversify their portfolio equally between high-risk stocks and low-risk bonds."
       },
       {
         "key": "D",
-        "text": "interacted after feeding as well as during feeding"
+        "text": "Rely heavily on initial price estimates when valuing new stock offerings."
       },
       {
         "key": "E",
-        "text": "did not show signs of illness until considerable time had passed following the ingestion of noxious or toxic food"
+        "text": "Avoid investing in equity markets altogether."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "The passage states: \"investors frequently retain declining assets longer than financial logic dictates, driven by an irrational urge to avoid realizing a loss.\""
   },
   {
-    "id": "og_verb_15",
+    "id": "gmat_mock_01_q36",
     "num": 36,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "According to the passage, which of the following is true of the experiments on domestic hens conducted by Sherwin\u2019s research team?",
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "Scientist: A diet rich in antioxidants reduces cell oxidation damage. Therefore, adults taking synthetic antioxidant pills will experience extended lifespans.\n\nWhich of the following points out a flaw in the scientist\u2019s reasoning?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "Only a small number of observer hens appeared to learn to avoid food that was demonstrated by other hens to be noxious."
+        "text": "It assumes that synthetic pills produce the same biological benefits as antioxidants ingested from natural dietary sources."
       },
       {
         "key": "B",
-        "text": "Observer hens ingested food preferentially only after numerous instances of witnessing demonstrator hens preferentially ingest that type of food."
+        "text": "It fails to mention which specific antioxidant pills were tested in clinical trials."
       },
       {
         "key": "C",
-        "text": "Observer hens appeared unable to recognize when demonstrator hens found a particular food especially palatable."
+        "text": "It overlooks the financial cost of producing commercial antioxidant supplements."
       },
       {
         "key": "D",
-        "text": "Demonstrator hens reacted adversely to ingesting certain novel foods."
+        "text": "It ignores the effect of physical exercise on cell oxidation rates."
       },
       {
         "key": "E",
-        "text": "Demonstrator hens altered their behavior less obviously in response to noxious foods than in response to highly palatable foods."
+        "text": "It assumes all adults have equal access to dietary antioxidants."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "The conclusion jumps from dietary antioxidants to synthetic pill supplements without establishing that synthetic supplements function identically in the human body."
   },
   {
-    "id": "og_verb_16",
+    "id": "gmat_mock_01_q37",
     "num": 37,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The passage indicates that which of the following is true about studies of social learning in mammals?",
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "In Country K, sales of organic dairy products grew by 35% last year, while traditional dairy sales fell by 10%. Marketers conclude that consumers in Country K are becoming increasingly health-conscious.\n\nWhich of the following, if true, most seriously WEAKENS the marketers\u2019 conclusion?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "Such studies have only rarely demonstrated a capacity among mammals to learn to prefer certain foods via observation of other animals."
+        "text": "A government subsidy significantly lowered the price of organic dairy products below traditional dairy prices last year."
       },
       {
         "key": "B",
-        "text": "Such studies have suggested that in mammals, one function of social learning is to establish preferences for novel foods."
+        "text": "Country K exported 15% of its organic dairy production to neighboring nations."
       },
       {
         "key": "C",
-        "text": "Such studies have demonstrated some capacity among mammals to learn via observation of other animals to avoid ingestion of toxic substances."
+        "text": "Several new organic dairy farms opened in Country K during the past two years."
       },
       {
         "key": "D",
-        "text": "Such studies have been conducted primarily in the mammals\u2019 natural habitats rather than in laboratory settings."
+        "text": "Consumer awareness campaigns regarding organic farming practices increased slightly."
       },
       {
         "key": "E",
-        "text": "Such studies have focused primarily on forms of social learning other than the acquisition of preferences for novel foods."
+        "text": "Traditional dairy farmers started producing non-dairy almond beverages."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "If organic products became cheaper than traditional dairy due to subsidies, price incentive\u2014not health consciousness\u2014drove the shift in consumer buying behavior."
   },
   {
-    "id": "og_verb_17",
+    "id": "gmat_mock_01_q38",
     "num": 38,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The primary purpose of the passage is to?",
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "Editorial: The school board\u2019s decision to mandate computer coding classes for all high school students is misguided. Only 15% of future jobs will require specialized programming skills. Therefore, forcing all students to take coding wastes valuable instructional time.\n\nWhich of the following, if true, provides the strongest REASON to STRENGTHEN the school board\u2019s mandate?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "compare the economic role played by southern banks with the economic role played by banks in the rest of the United States during the late eighteenth and early nineteenth centuries"
+        "text": "Learning computer coding develops generalized logical problem-solving skills that benefit all career paths."
       },
       {
         "key": "B",
-        "text": "reevaluate a conventional interpretation of the role played by banks in the American economy during the late eighteenth and early nineteenth centuries"
+        "text": "Computer coding software is expensive for public schools to license."
       },
       {
         "key": "C",
-        "text": "present different interpretations of the role played by banks in the American economy during the late eighteenth and early nineteenth centuries"
+        "text": "High school students already spend several hours daily using digital devices."
       },
       {
         "key": "D",
-        "text": "analyze how the increasing number of banks in the late eighteenth and early nineteenth centuries affected the American economy"
+        "text": "Some students prefer creative writing classes over technical coursework."
       },
       {
         "key": "E",
-        "text": "examine how scholarly opinion regarding the role played by banks in the American economy during the late eighteenth and early nineteenth centuries has changed over time"
+        "text": "Private tutoring in computer coding has increased among middle-school students."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "If coding teaches fundamental problem-solving applicable across all careers, the mandate benefits all students, neutralizing the argument that it only helps the 15% entering tech fields."
   },
   {
-    "id": "og_verb_18",
+    "id": "gmat_mock_01_q39",
     "num": 39,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The passage suggests that the scholars mentioned in line 4 would argue that the reason banks tended not to fund manufacturing and transportation projects in the late eighteenth and early nineteenth centuries was that?",
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "Analyst: Company Y increased its marketing budget by 50% this year and saw its total sales rise by 20%. Therefore, the increased marketing budget was directly responsible for the sales growth.\n\nWhich of the following statements identifies a weakness in the analyst\u2019s argument?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "these projects, being well established and well capitalized, did not need substantial long-term financing from banks"
+        "text": "It fails to consider that an overall industry-wide surge in consumer demand may have driven sales growth."
       },
       {
         "key": "B",
-        "text": "these projects entailed a level of risk that was too great for banks\u2019 conservative lending practices"
+        "text": "It does not specify which advertising channels Company Y utilized."
       },
       {
         "key": "C",
-        "text": "banks preferred to invest in other, more speculative projects that offered the potential for higher returns"
+        "text": "It assumes Company Y will maintain the same marketing budget next year."
       },
       {
         "key": "D",
-        "text": "bank managers believed that these projects would be unlikely to contribute significantly to economic growth in the new country"
+        "text": "It overlooks the fact that Company Y\u2019s competitors also increased their marketing budgets."
       },
       {
         "key": "E",
-        "text": "bank managers believed funding these projects would result in credit being extended to too many borrowers"
+        "text": "It relies on sales percentage increases rather than absolute dollar metrics."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "The argument assumes correlation equals causation, ignoring external macro factors (like industry-wide demand growth) that could explain the higher sales."
   },
   {
-    "id": "og_verb_19",
+    "id": "gmat_mock_01_q40",
     "num": 40,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The passage suggests that Paul Gilje would be most likely to agree with which of the following claims about the lending practices of the \u201cearliest banks\u201d (see line 21)?",
-    "passage": null,
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "It can be inferred from the passage that hydrothermal vent ecosystems:",
+    "passage": "Deep-sea hydrothermal vents harbor dense biological communities operating independently of sunlight. Chemosynthetic bacteria form the foundation of these ecosystems, converting inorganic hydrogen sulfide emitted by vents into organic energy. Unlike photosynthetic plants that rely on solar energy, these bacteria sustain complex food webs including giant tube worms and blind shrimp in total oceanic darkness.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "These lending practices were unlikely to generate substantial profits for banks."
+        "text": "Do not rely on solar radiation for primary biological energy production."
       },
       {
         "key": "B",
-        "text": "These lending practices only benefited a narrow sector of the economy."
+        "text": "Contain tube worms that feed directly on inorganic hydrogen sulfide gas."
       },
       {
         "key": "C",
-        "text": "The restrictive nature of these lending practices generated significant opposition outside of the South."
+        "text": "Are more biodiverse than terrestrial tropical rainforest ecosystems."
       },
       {
         "key": "D",
-        "text": "The restrictive nature of these lending practices forced state legislatures to begin granting more bank charters by the early nineteenth century."
+        "text": "Existed on Earth prior to the evolution of photosynthetic plants."
       },
       {
         "key": "E",
-        "text": "These lending practices were likely to be criticized by economic elites as being overly restrictive."
+        "text": "Produce oxygen through bacterial chemical reactions."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "The passage explicitly states chemosynthetic bacteria convert chemical energy (hydrogen sulfide) in total darkness without relying on solar energy."
   },
   {
-    "id": "og_verb_20",
+    "id": "gmat_mock_01_q41",
     "num": 41,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The passage suggests that the opposition to banks in the South in the early nineteenth century stemmed in part from the perception that banks?",
+    "topic": "Verbal",
+    "subtopic": "Verbal Reasoning Topic Mastery",
+    "difficulty": "Medium",
+    "questionText": "Mayor: Installing public surveillance cameras in downtown parks reduced reported muggings by 40%. Thus, expanding surveillance to residential neighborhoods will similarly reduce property crimes.\n\nWhich of the following describes a flaw in the mayor\u2019s reasoning?",
     "passage": null,
     "answerOptions": [
       {
         "key": "A",
-        "text": "did not benefit more than a small minority of the people"
+        "text": "It assumes that conditions affecting crime in commercial parks are identical to those in residential neighborhoods."
       },
       {
         "key": "B",
-        "text": "did not support the interests of elite planters"
+        "text": "It fails to account for the cost of purchasing additional surveillance equipment."
       },
       {
         "key": "C",
-        "text": "were too closely tied to transportation and industrial interests"
+        "text": "It ignores complaints from residents regarding personal privacy concerns."
       },
       {
         "key": "D",
-        "text": "were unwilling to issue the long-term loans required by agrarian interests"
+        "text": "It relies on crime data collected over a single month rather than multiple years."
       },
       {
         "key": "E",
-        "text": "were too willing to lend credit widely"
+        "text": "It assumes that all muggings were reported to local law enforcement."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "The mayor draws an analogy between parks and residential neighborhoods without demonstrating that camera effectiveness translates across distinct environments."
   },
   {
-    "id": "og_verb_21",
+    "id": "gmat_mock_01_q42",
     "num": 42,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "Which of the following statements best describes the function of the last sentence of the passage?",
-    "passage": null,
+    "topic": "Reading Comprehension",
+    "subtopic": "Epigenetics & Gene Expression",
+    "difficulty": "Medium",
+    "questionText": "Regarding epigenetic gene regulation, the primary purpose of the passage is to",
+    "passage": "The classical Mendelian paradigm posited that phenotypic heredity is governed strictly by invariant nucleotide sequences in nuclear DNA. However, the emerging discipline of epigenetics demonstrates that gene expression is dynamically modulated by chromatin remodeling and chemical modifications without altering the underlying genomic code. The most prominent epigenetic mechanisms include DNA methylation\u2014typically repressing transcription at CpG islands\u2014and post-translational histone modifications such as acetylation and phosphorylation. Histone acetyltransferases (HATs) append acetyl moieties to lysine residues on histone tails, neutralizing their positive charge and relaxing chromatin compaction into transcriptionally accessible euchromatin. Conversely, histone deacetylases (HDACs) restore compaction, repressing transcription. Significantly, environmental exposures, nutritional variations, and chronic stress during critical developmental windows can induce stable epigenetic marks that persist through mitotic divisions and, in some documented mammalian lineages, transmit across transgenerational boundaries.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "It provides evidence tending to undermine the viewpoint of the scholars mentioned in line 5."
+        "text": "dispute the existence of Mendelian inheritance patterns in mammalian organisms"
       },
       {
         "key": "B",
-        "text": "It resolves a conflict over the role of banks summarized in the first paragraph."
+        "text": "explain how chemical chromatin modifications regulate transcription without altering nucleotide sequences"
       },
       {
         "key": "C",
-        "text": "It clarifies some of the reasons state legislatures began granting more bank charters."
+        "text": "advocate for the therapeutic use of histone acetyltransferase inhibitors in oncology"
       },
       {
         "key": "D",
-        "text": "It qualifies a claim made earlier in the passage about the impact of banks on the American economy in the early nineteenth century."
+        "text": "demonstrate that environmental stress permanently damages nuclear DNA structures"
       },
       {
         "key": "E",
-        "text": "It supports a claim made earlier in the passage about how the expansion of credit affected the economy."
+        "text": "prove that DNA methylation is the sole determinant of phenotypic expression"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "The passage explains the mechanisms (methylation, histone acetylation) that regulate gene expression without sequence alterations."
   },
   {
-    "id": "og_verb_22",
+    "id": "gmat_mock_01_q43",
     "num": 43,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "The passage is primarily concerned with?",
-    "passage": null,
+    "topic": "Reading Comprehension",
+    "subtopic": "Epigenetics & Gene Expression",
+    "difficulty": "Medium",
+    "questionText": "Regarding Epigenetics & Gene Expression, according to the passage, the action of histone acetyltransferases (HATs) results in",
+    "passage": "The classical Mendelian paradigm posited that phenotypic heredity is governed strictly by invariant nucleotide sequences in nuclear DNA. However, the emerging discipline of epigenetics demonstrates that gene expression is dynamically modulated by chromatin remodeling and chemical modifications without altering the underlying genomic code. The most prominent epigenetic mechanisms include DNA methylation\u2014typically repressing transcription at CpG islands\u2014and post-translational histone modifications such as acetylation and phosphorylation. Histone acetyltransferases (HATs) append acetyl moieties to lysine residues on histone tails, neutralizing their positive charge and relaxing chromatin compaction into transcriptionally accessible euchromatin. Conversely, histone deacetylases (HDACs) restore compaction, repressing transcription. Significantly, environmental exposures, nutritional variations, and chronic stress during critical developmental windows can induce stable epigenetic marks that persist through mitotic divisions and, in some documented mammalian lineages, transmit across transgenerational boundaries.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "examining economic factors that may have contributed to the success of certain Japanese companies"
+        "text": "increased compaction of chromatin into inaccessible heterochromatin"
       },
       {
         "key": "B",
-        "text": "discussing the relative merits of strategic partnerships as compared with those of market-exchange relationships"
+        "text": "the permanent deletion of lysine residues from nuclear DNA"
       },
       {
         "key": "C",
-        "text": "challenging the validity of a widely held assumption about how Japanese firms operate"
+        "text": "relaxation of chromatin structure into transcriptionally accessible euchromatin"
       },
       {
         "key": "D",
-        "text": "explaining why Western companies have been slow to adopt a particular practice favored by Japanese companies"
+        "text": "the suppression of all mitotic cellular divisions"
       },
       {
         "key": "E",
-        "text": "pointing out certain differences between Japanese and Western supplier relationships"
+        "text": "the complete removal of CpG islands from the genome"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "C",
+    "explanation": "HATs neutralize positive charges on histone tails, relaxing chromatin into euchromatin and enabling transcription."
   },
   {
-    "id": "og_verb_23",
+    "id": "gmat_mock_01_q44",
     "num": 44,
     "section": "Verbal",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Easy",
-    "questionText": "According to the passage, the advice referred to in line 6 was a response to which of the following?",
-    "passage": null,
+    "topic": "Reading Comprehension",
+    "subtopic": "Epigenetics & Gene Expression",
+    "difficulty": "Hard",
+    "questionText": "Regarding Epigenetics & Gene Expression, it can be inferred from the passage that histone deacetylases (HDACs) function primarily to",
+    "passage": "The classical Mendelian paradigm posited that phenotypic heredity is governed strictly by invariant nucleotide sequences in nuclear DNA. However, the emerging discipline of epigenetics demonstrates that gene expression is dynamically modulated by chromatin remodeling and chemical modifications without altering the underlying genomic code. The most prominent epigenetic mechanisms include DNA methylation\u2014typically repressing transcription at CpG islands\u2014and post-translational histone modifications such as acetylation and phosphorylation. Histone acetyltransferases (HATs) append acetyl moieties to lysine residues on histone tails, neutralizing their positive charge and relaxing chromatin compaction into transcriptionally accessible euchromatin. Conversely, histone deacetylases (HDACs) restore compaction, repressing transcription. Significantly, environmental exposures, nutritional variations, and chronic stress during critical developmental windows can induce stable epigenetic marks that persist through mitotic divisions and, in some documented mammalian lineages, transmit across transgenerational boundaries.",
     "answerOptions": [
       {
         "key": "A",
-        "text": "A recent decrease in the number of available suppliers within the United States automobile industry"
+        "text": "promote elevated levels of gene transcription across all chromosomes"
       },
       {
         "key": "B",
-        "text": "A debate within Western management circles during the past decade regarding the value of strategic partnerships"
+        "text": "repress gene transcription by restoring chromatin compaction"
       },
       {
         "key": "C",
-        "text": "The success of certain European automobile manufacturers that have adopted strategic partnerships"
+        "text": "substitute nucleotide base pairs during DNA replication"
       },
       {
         "key": "D",
-        "text": "An increase in demand over the past decade for automobiles made by Western manufacturers"
+        "text": "prevent environmental factors from influencing cellular phenotype"
       },
       {
         "key": "E",
-        "text": "Research comparing Japanese business practices with those of other nations"
+        "text": "accelerate transgenerational inheritance of acquired physical traits"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "B",
+    "explanation": "The text states: 'Conversely, histone deacetylases (HDACs) restore compaction, repressing transcription.'"
   },
   {
-    "id": "og_data_1",
+    "id": "gmat_mock_01_q45",
     "num": 45,
     "section": "Data Insights",
-    "topic": "Critical Reasoning",
-    "subtopic": "OG 2025-2026 Official Question Bank",
+    "topic": "Data Sufficiency",
+    "subtopic": "Statistics & Probability",
     "difficulty": "Easy",
-    "questionText": "Use math, verbal reasoning, and data analysis, Solve connected problems together, and Give answers in different formats, not just traditional multiple choice. Many Data Insights questions ask you to study graphs and sort tables to find information. These questions don\u2019t require advanced statistics or spreadsheet expertise. Other Data Insights questions ask you to tell whether given information is enough to answer a question, but don\u2019t ask you to actually answer it. You have 45 minutes to respond to the 20 questions in the Data Insights section, an average of 2 minutes and 15 seconds per question. Throughout the section are questions of five types. Some need multiple responses. A question may use math, data analysis, verbal reasoning, or all three. Questions with math require knowing the topics reviewed in Chapter 3, \u201cMath Review\u201d: Value, Order, Factors; Algebra, Equalities, Inequalities; Rates, Ratios, Percents; and Statistics, Sets, Counting, Probability, Estimation, and Series. Questions involving data analysis require understanding different types of data in tables or graphs, finding patterns in that data, and using other skills reviewed in Chapter 5, \u201cData Insights Review.\u201d Questions with verbal aspects require reasoning, understanding texts, evaluating arguments, and using other skills reviewed in Chapter 7, \u201cVerbal Review.\u201d To prepare for the Data Insights section, first review basic math, data analysis, and verbal reasoning skills to make sure you know enough to answer the questions. Then practice on GMAT questions from past exams. Special Features: Unlike other sections of the GMAT exam, the Data Insights section sometimes shows two or more questions on one screen. When it does, you can change your answers before clicking \u201cNext\u201d to go on to the next screen. But once you\u2019re on a new screen, you can\u2019t return to the previous screen. The Data Insights section uses some math, but it doesn\u2019t ask you to calculate by hand. An onscreen calculator with basic functions is available for this section. For more information, please go to www.mba.com/exampolicies. 6.1 What Is Measured The Data Insights section measures how well you use data to solve problems. Specifically, it tests the skills described below: Skill Category Details Examples Apply Understand principles, rules, or other conceptsUse them in a new context or say what would follow if new information were added Tell if new examples follow or break given rules Tell how new situations affect a trend Draw conclusions about new data from given principles Evaluate Judge information as evidence Tell if information in one source supports or weakens a claim in another source Tell if information justifies a course of action Judge how well evidence supports an argument or plan Find errors or gaps in information Infer Draw unstated conclusions from information Find an outcome\u2019s probability using data Tell if statements follow logically from given information Say what a term means in a context Find a rate of change in data gathered over time Recognize Identify information given explicitly, including details or relationships between pieces of information Find agreements and disagreements between information sources Find how strongly two variables are correlated Give a ranking based on combined factors from a table (for example, saying which product maximizes revenue and minimizes costs) Tell which data an argument uses as evidence Strategize Find ways to work toward a goal given constraints Choose a plan that minimizes risks and maximizes value Identify trade-offs among ways to reach a goal Tell which math formula gives a desired result Decide which ways of doing a task meet given needs  6.2 Question Types and Test-Taking Strategies The Data Insights section has five types of questions: Multi-Source Reasoning, Table Analysis, Graphics Interpretation, Two-Part Analysis, and Data Sufficiency. We describe each below. 1. Multi-Source Reasoning What you see: Two or three tabs on the left side of your screen. Each tab shows a written passage, a table, a graph, or another information source. The different tabs may show information in different forms. Click on the tabs to see what\u2019s on them and find what you need to answer the questions. [[INSERT UNFIG]] A question with answer choices on the right side of your screen. With each set of tabs, three questions appear one at a time. The response type: Some questions are traditional multiple choice, with five answer choices. Others are \u201cconditional statement\u201d questions. Each question gives a condition. Below the condition are three rows with content such as sentences, phrases, words, numbers, or formulas. For each row, mark \u201cyes\u201d or \u201ctrue\u201d if the row\u2019s contents meet the given condition, or mark \u201cno\u201d or \u201cfalse\u201d if not. Mark one answer PER ROW. You must mark all three rows correctly to get credit for the question. [[INSERT UNFIG]] Tips for Answering Multi-Source Reasoning Questions Answer using only the information given. The tabs show all the information you need to answer correctly. If you already know about the topic, don\u2019t use that knowledge to answer. Use only the information in the tabs. Analyze each information source. As you read a passage, note each statement\u2019s role. Section 7.1, \u201cAnalyzing Passages,\u201d explains how. Read labels and scales to understand the data in tables and graphs. Chapter 5, \u201cData Insights Review,\u201d explains how. Read the whole question. You need to understand what each question is asking you to do. For example, some questions ask you to spot conflicts between information sources. Others ask you to draw conclusions by combining information from different sources. And some questions ask you to judge which information sources are relevant to an issue. While answering the questions, you can always click on the tabs to review any of the information. 2. Table Analysis What you see: A data table. You can sort it by any data column. The response type: The questions are in \u201cconditional statement\u201d form. Each question gives a condition. Below the condition are three rows with contents such as sentences, phrases, words, numbers, or formulas. For each row, mark \u201cyes\u201d or \u201ctrue\u201d if the row\u2019s contents meet the condition, or mark \u201cno\u201d or \u201cfalse\u201d if not. Mark one answer PER ROW. You must mark all three rows correctly to get credit for the question. [[INSERT UNFIG]] Tips for Answering Table Analysis Questions Study the table and any text around it to learn what kind of data it shows. Knowing what kind of data is in the table helps you find the information you need. Study the condition in the question. The question gives a condition like \u201cis consistent with the information provided\u201d or \u201ccan be inferred from the information provided.\u201d Understanding that condition helps you understand how to mark each row. Read each answer row to decide how to sort the table. Often an answer row\u2019s contents hint at how to sort the table by one or more columns to make the data you need easier to find. Judge whether each answer row\u2019s contents meet the given condition. In each row, you can only mark one of the two answer choices, and only one is right. Decide whether the row\u2019s contents meet the condition in the question. 3. Graphics Interpretation What you see: A graphic. Section 5.2, \u201cData Displays,\u201d explains some kinds of graphics you might see. One or more statements with blanks in missing parts. Each blank part has a drop-down menu you use to fill it in. [[INSERT UNFIG]] The response type: Each drop-down menu shows a list of choices such as words, phrases, or numbers. Pick the best choice in the drop-down menu to fill in the blank in the statement. If the question has two or more drop-down menus, you must pick the best choices in all of them to get credit for the question. Tips for Answering Graphics Interpretation Questions Study the graphic. Find the information in the graphic. Notice any marked values on the axes. Also notice any differences between units in the graphic and units the text discusses. Don\u2019t assume the graphic is drawn to scale. Read any text around the graphic. Text near the graphic may clarify what the graphic means. The text may also give information that\u2019s not in the graphic but is needed to answer the question. Study the statements with drop-down menus. Studying these statements helps you understand what the question is asking you to do. Graphics Interpretation questions may ask you to interpret and connect data, to find how different pieces of data are related, or to draw conclusions from a data set. You may have to do some math, for example to find or compare rates of change. Read all the choices in each drop-down menu. The menu choices may have clues about how to answer the question. Pick the choice that best completes the statement. More than one choice in the drop-down menu may seem plausible. Pick the one that makes the statement most accurate or logical. If the drop-down menu comes after a phrase like nearest to or closest to, pick the choice closest to your calculated answer. Reading the statement again with your answer choice in place may help. 4. Two-Part Analysis Two-Part Analysis questions challenge you to use varied skills, such as judging trade-offs, solving simultaneous equations, or noticing relationships. What you see: A passage. Instructions saying to use the passage to make two choices that together or separately meet one or more conditions. A response table with three columns. [[INSERT UNFIG]] The response type: The response table\u2019s top row names the columns. Below that, the first two columns have buttons you click to choose from a list in the third column. Pick one answer PER COLUMN, not per row. To get credit for the question, you must pick one correct answer in the first column, and one in the second column. You can pick the same answer in both columns. Tips for Answering Two-Part Analysis Questions Answer using only the information given. The question tells you everything you need to know to pick the right answers. If you already know about the topic, don\u2019t use that knowledge to answer the question. Rely on the given information to answer the question. Read the instructions below the passage. The table\u2019s top row may not fully explain the tasks in the first two columns. Notice how the instructions describe the tasks. Make two choices. Pick one answer in the first column and one answer in the second column. Read all the answer choices before picking any. Before you pick answers in the first two columns, read all the answer choices in the third column. Notice if the instructions say the two answers depend on each other. Some Two-Part Analysis questions ask you to make two independent choices. Others ask you to pick two answers that combine into one correct response. Follow the instructions to make sure your two answer choices combine the right way. Pick the same answer in both columns if it is the best choice for both. Sometimes the same answer is the best choice for both columns. 5. Data Sufficiency A Data Sufficiency problem asks you to analyze a question. Usually, the question is about an information source such as a written passage, a table, a graph, or an equation. You must then decide whether either or both of two new statements give enough new information to answer the question. But you don\u2019t have to give the answer. Instead, you pick one of five response choices to classify how the two statements relate to the question. These five choices are the same for each Data Sufficiency question. What you see: A question, usually with background information. Two statements labeled (1) and (2). Example of a Data Sufficiency Problem and Statements Kim has a deck of forty colored cards. The deck is comprised of cards of four different colors. Kim shuffles the cards and keeps drawing cards from the deck, one after the other, to count the number of cards of each color. Is there a chance that Kim might draw thirty-one cards without drawing a blue card-and then draw a blue card? The four colors are red, blue, green, and yellow. The deck contains the same number of cards of each of the four colors. The response type: Each question is multiple choice, always with these five answer choices:",
+    "questionText": "Each car at a certain dealership is either blue or white. What is the average (arithmetic mean) sticker price of all the cars at the dealership?\n\n(1) Of all the cars at the dealership,\n(2) are blue and have an average sticker price of \\$21,000.",
     "passage": null,
     "answerOptions": [
       {
@@ -1540,17 +1540,17 @@ export const mock01Full64Questions: Mock01Question[] = [
         "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Official explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "C",
+    "explanation": "Let b and w be the numbers of blue and white cars, with average prices p_b and p_w. Average price = (b*p_b + w*p_w) / (b + w). Statement (1) alone does not give the number or price of white cars; NOT sufficient. Statement (2) gives the number and average price of white cars, but not blue cars; NOT sufficient. Together, both statements give all values, so the average sticker price can be uniquely calculated. The correct answer is C; both statements together are sufficient."
   },
   {
-    "id": "og_di_ds_273",
+    "id": "gmat_mock_01_q46",
     "num": 46,
     "section": "Data Insights",
     "topic": "Data Sufficiency",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Medium",
-    "questionText": "What is the number of pages of a certain journal article? The size of each page is 5 1 2  inches by 8 inches. The average (arithmetic mean) number of words per page is 250. If a certain vase contains only roses and tulips, how many tulips are there in the vase? The number of roses in the vase is 4 times the number of tulips in the vase. There is a total of 20 flowers in the vase. The cost of 10 pounds of apples and 2 pounds of grapes was $12. What was the cost per pound of apples? The cost per pound of grapes was $2. The cost of 2 pounds of apples was less than the cost of 1 pound of grapes. What was the median annual salary for the employees at Company X last year? <li?",
+    "subtopic": "Statistics & Probability",
+    "difficulty": "Easy",
+    "questionText": "A box contains only white balls and black balls. What is the probability that a ball selected at random from the box is white?\n\n(1) There are 100 balls in the box.\n(2) There are 40 black balls in the box.",
     "passage": null,
     "answerOptions": [
       {
@@ -1575,16 +1575,16 @@ export const mock01Full64Questions: Mock01Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Official Data Sufficiency explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "Let w be the number of white balls and b be the number of black balls. Probability = w / (w + b). Statement (1) gives no indication of either the total number of balls in the box or the number of white balls; NOT sufficient. Taking (1) and (2) together provides the ratio of white to black balls, allowing the probability to be calculated. The correct answer is C; both statements together are sufficient."
   },
   {
-    "id": "og_di_ds_320",
+    "id": "gmat_mock_01_q47",
     "num": 47,
     "section": "Data Insights",
     "topic": "Data Sufficiency",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Medium",
-    "questionText": "What is the total number of executives at Company P? The number of male executives is 3 5  the number of female executives. There are 4 more female executives than male executives. Jack picked 76 apples. Of these, he sold 4 y  apples to Juanita and 3 t  apples to Sylvia. If he kept the remaining apples, how many apples did he keep? (<!--<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" altim?",
+    "subtopic": "Statistics & Probability",
+    "difficulty": "Easy",
+    "questionText": "A certain bag contains only red balls, blue balls, and green balls. What percent of all the balls in the bag are red?\n\n(1) The ratio of the number of red balls to the number of blue balls in the bag is 1:3.\n(2) There are 2 green balls in the bag.",
     "passage": null,
     "answerOptions": [
       {
@@ -1608,17 +1608,17 @@ export const mock01Full64Questions: Mock01Question[] = [
         "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Official Data Sufficiency explanation available in the GMAT Official Guide 2025-2026."
+    "correctAnswer": "E",
+    "explanation": "Let r, b, g be the number of red, blue, and green balls. We want r / (r + b + g). Statement (1) gives r/b = 1/3, but no information about green balls; NOT sufficient. Statement (2) gives g = 2, but no information about red or blue balls; NOT sufficient. Together, if r = 1 and b = 3, percent red is 1/(1+3+2) = 1/6 (16.7%). If r = 2 and b = 6, percent red is 2/(2+6+2) = 2/10 = 20%. Since the percentage can take different values, statements (1) and (2) together are NOT sufficient. The correct answer is E; statements (1) and (2) TOGETHER are NOT sufficient."
   },
   {
-    "id": "og_di_ds_363",
+    "id": "gmat_mock_01_q48",
     "num": 48,
     "section": "Data Insights",
     "topic": "Data Sufficiency",
-    "subtopic": "OG 2025-2026 Official Question Bank",
-    "difficulty": "Medium",
-    "questionText": "Did the population of Town C increase by at least 100 percent from the year 2000 to the year 2010? The population of Town C in 2000 was 2 3  of the population in 2005. The population of Town C increased by a greater number of people from 2005 to 2010 than it did from 2000 to 2005. In a survey of 200 college graduates, 30% said they had received student loans during their college careers, and 40% said they had received scholarships. What percent of those surveyed said that they had received neither student loans nor scholarships during their college careers? 25% of those surveyed said that they had received scholarships but no loans. 50% of those surveyed who said that they had received loans also said that they had received scholarships. Stores L and M each sell a cert?",
+    "subtopic": "Algebra & Equations",
+    "difficulty": "Easy",
+    "questionText": "Each of the 120 students in a certain dormitory is either a junior or a senior. How many of the juniors have credit cards?\n\n(1) of the 120 juniors and seniors have credit cards.\n(2) The number of seniors who have credit cards is 20 more than the number of juniors who have credit cards.",
     "passage": null,
     "answerOptions": [
       {
@@ -1643,16 +1643,16 @@ export const mock01Full64Questions: Mock01Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Official Data Sufficiency explanation available in the GMAT Official Guide 2025-2026."
+    "explanation": "Evaluating the statements: o not have credit cards split of the 120 students; NOT sufficient. Taking (1) and (2) together, 80 students have credit cards from (1) and the number of seniors with credit cards is 20 more than the number of juniors with credit cards from (2). Thus, or , which can be solved for a unique value of . The correct answer is C; both statements together are sufficient."
   },
   {
-    "id": "og_di_ds_gen_1_1",
+    "id": "gmat_mock_01_q49",
     "num": 49,
     "section": "Data Insights",
     "topic": "Data Sufficiency",
-    "subtopic": "Number Properties",
+    "subtopic": "Statistics & Probability",
     "difficulty": "Easy",
-    "questionText": "Is the integer n odd? (1) 3n + 1 is even. (2) n^2 + 1 is even.",
+    "questionText": "If the average (arithmetic mean) cost per sweater for 3 pullover sweaters and 1 cardigan sweater was \\$65, what was the cost of the cardigan sweater?\n\n(1) The average cost per sweater for the 3 pullover sweaters was \\$55.\n(2) The most expensive of the 3 pullover sweaters cost \\$30 more than the least expensive.",
     "passage": null,
     "answerOptions": [
       {
@@ -1676,17 +1676,187 @@ export const mock01Full64Questions: Mock01Question[] = [
         "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Statement (1): 3n+1 is even implies 3n is odd, so n is odd. Statement (2): n^2+1 is even implies n^2 is odd, so n is odd. Each is sufficient."
+    "correctAnswer": "A",
+    "explanation": "Evaluating the statements: f the least expensive was \\$30, and the price of the other pullover sweater was \\$40, then the value of . But if the price of the most expensive pullover sweater was \\$60, the price of the least expensive was \\$30, and the price of the other pullover sweater was \\$50, then the value of ; NOT sufficient. The correct answer is A; statement 1 alone is sufficient."
   },
   {
-    "id": "og_di_ds_gen_1_2",
+    "id": "gmat_mock_01_q50",
     "num": 50,
     "section": "Data Insights",
     "topic": "Data Sufficiency",
-    "subtopic": "Algebra",
-    "difficulty": "Hard",
-    "questionText": "If x and y are positive integers, what is the value of x + y? (1) x^2 - y^2 = 15. (2) x and y are prime numbers.",
+    "subtopic": "Algebra & Equations",
+    "difficulty": "Easy",
+    "questionText": "In each quarter of 1998, Company M earned more money than in the previous quarter. What was the range of Company M\u2019s quarterly earnings in 1998?\n\n(1) quarters of 1998, Company M earned \\$4.0 million and \\$4.6 million, respectively.\n(2) quarters of 1998, Company M earned \\$3.8 million and \\$4.9 million, respectively.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Evaluating the statements: t -quarter earnings. The difference between the greatest quarterly earnings and the least quarterly earnings for 1998 is thus the difference between the 4 th -quarter earnings and the 1 st -quarter earnings\u2014the values \\$4.9 million and \\$3.8 million, respectively, that we have been given; SUFFICIENT. The correct answer is B; statement 2 alone is sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q51",
+    "num": 51,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Statistics & Probability",
+    "difficulty": "Easy",
+    "questionText": "The range of the heights of a group of high school juniors and seniors is 20 centimeters. What is the average (arithmetic mean) of the height of the tallest senior in the group and the height of the shortest junior in the group?\n\n(1) The average of the heights of the juniors in the group is 165 centimeters.\n(2) The average of the heights of the seniors in the group is 179 centimeters.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": ") above, the average of the heights of the seniors is 179 cm; NOT sufficient. Taking (1) and (2) together, it is not possible to determine the average of the height of the tallest senior and the height of the shortest junior because each of the examples used in (1) above satisfies both (1) and (2). The correct answer is E; both statements together are still not sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q52",
+    "num": 52,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Rates & Work",
+    "difficulty": "Easy",
+    "questionText": "For each hour worked over 40 hours in a week, an employee is paid 1.5 times the employee\u2019s regular hourly pay rate. If an employee worked a total of 42 hours last week, how much was the employee\u2019s gross pay for last week?\n(1) The employee\u2019s regular hourly pay rate was \\$15.\n(2) The employee\u2019s gross pay for all hours worked last week was \\$30 more than for the first 40 hours.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Evaluating the statements: ollows that and ; SUFFICIENT. Given that the employee\u2019s gross pay for all hours worked last week was \\$30 more than for the previous week, the value of cannot be determined because nothing specific is known about the value of the employee\u2019s pay for all hours worked the previous week; NOT sufficient. The correct answer is A; statement 1 alone is sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q53",
+    "num": 53,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Business & Finance",
+    "difficulty": "Easy",
+    "questionText": "Did Insurance Company K have more than \\$300 million in total net profits last year?\n\n(1) Last year Company K paid out \\$0.95 in claims for every dollar of premiums collected.\n(2) Last year Company K earned a total of \\$150 million in profits from the investment of accumulated surplus premiums from previous years.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "NOT sufficient. Taking (1) and (2) together gives information on profit resulting from collecting premiums and paying claims as well as profit resulting from investments from accumulated surplus premiums but gives no indication whether there were other sources of revenue or other types of expenses. The correct answer is E; both statements together are still not sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q54",
+    "num": 54,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Rates & Work",
+    "difficulty": "Easy",
+    "questionText": "How many hours would it take Pump A and Pump B working together, each at its own constant rate, to empty a tank that was initially full?\n\n(1) Working alone at its constant rate, Pump A would empty the full tank in 4 hours 20 minutes.\n(2) Working alone, Pump B would empty the full tank at its constant rate of 72 liters per minute.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "OT sufficient. Taking (1) and (2) together gives the amount of time it would take Pump A to empty the tank and the rate at which Pump B can empty the tank, but without knowing the capacity of the tank, it is not possible to determine how long the pumps working together would take to empty the tank. The correct answer is E; both statements together are still not sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q55",
+    "num": 55,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Rates & Work",
+    "difficulty": "Easy",
+    "questionText": "Maria left on a trip 1/2 hour after her husband and drove over the same route as he had in order to overtake him. From the time she left, how many hours did it take for Maria to overtake her husband?\n(1) Maria's average speed was 60 miles per hour.\n(2) Maria's husband's average speed was 48 miles per hour.",
     "passage": null,
     "answerOptions": [
       {
@@ -1711,16 +1881,254 @@ export const mock01Full64Questions: Mock01Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Statement (1): (x-y)(x+y) = 15. Factors of 15 are (1,15) or (3,5). Gives (x=8, y=7) or (x=4, y=1). Statement (2): x and y are prime. Only (8,7) has 7 as prime, but 8 is not. Wait, 8 and 7: 8 is not prime. If (x-y)=1, (x+y)=15 => x=8, y=7 (8 is not prime). If (x-y)=3, (x+y)=5 => x=4, y=1 (neither is prime). Both statements together determine unique prime values."
+    "explanation": "Let $t$ be the number of hours Maria drove to overtake her husband. Her husband started 0.5 hours earlier, so his travel time was $t + 0.5$ hours. When she catches him, both have driven the exact same distance: $v_M \\cdot t = v_H \\cdot (t + 0.5)$. Statement (1) alone gives Maria's speed $v_M = 60$, but without knowing her husband's speed $v_H$, $t$ cannot be determined; NOT sufficient. Statement (2) alone gives her husband's speed $v_H = 48$, but without knowing Maria's speed $v_M$, $t$ cannot be determined; NOT sufficient. Taking (1) and (2) together: $60t = 48(t + 0.5) \\implies 60t = 48t + 24 \\implies 12t = 24 \\implies t = 2$ hours. Both statements together are sufficient to determine a unique time. The correct answer is C."
   },
   {
-    "id": "og_di_ds_gen_1_3",
-    "num": 51,
+    "id": "gmat_mock_01_q56",
+    "num": 56,
     "section": "Data Insights",
     "topic": "Data Sufficiency",
-    "subtopic": "Statistics",
-    "difficulty": "Medium",
-    "questionText": "What is the average (arithmetic mean) of set S containing 5 consecutive integers? (1) The median of set S is 12. (2) The largest integer in set S is 14.",
+    "subtopic": "Algebra & Equations",
+    "difficulty": "Easy",
+    "questionText": "How many people received a certain survey?\n\n(1) Six-tenths of those who received the survey responded.\n(2) Of those who received the survey, 42 responded.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Evaluating the statements: ho both received the survey and responded to the survey is 42, it is not possible to determine the value of since any integer greater than or equal to 42 could be the value of ; NOT sufficient. Taking (1) and (2) together, it follows that , which has exactly one solution for the value of , namely . The correct answer is C; both statements together are sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q57",
+    "num": 57,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Statistics & Probability",
+    "difficulty": "Easy",
+    "questionText": "From 1985 to 1994, what was the percent increase in total United States trade?\n\n(1) Total United States trade in 1985 was 17 percent of gross domestic product in 1985.\n(2) Total United States trade in 1994 was 23 percent of gross domestic product in 1994.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Evaluating the statements: product. For example, let be the 1985 gross domestic product. If the 1994 gross domestic product were also , then the percent increase in total trade from 1985 to 1994 would be . However, if the 1994 gross domestic product were , then the percent increase in total trade from 1985 to 1994 would be . The correct answer is E; both statements together are still not sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q58",
+    "num": 58,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Business & Finance",
+    "difficulty": "Easy",
+    "questionText": "Company X\u2019s profits this year increased by 25% over last year\u2019s profits. Was the dollar amount of Company X\u2019s profits this year greater than the dollar amount of Company Y\u2019s?\n\n(1) Last year, the ratio of Company Y\u2019s profits to Company X\u2019s profits was 5:2.\n(2) Company Y experienced a 40% drop in profits from last year to this year.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Evaluating the statements: nd (2) together, it is given that and from (1) it follows that , or , and thus . From (2) it follows that , or , and thus . Since the last equation expresses as a specific number times , it follows that it can be determined whether or not . Note that , and so the answer to the question \u201cIs \u201d is no. The correct answer is C; both statements together are sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q59",
+    "num": 59,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Statistics & Probability",
+    "difficulty": "Easy",
+    "questionText": "A certain company consists of three divisions, A, B, and C. Of the employees in the three divisions, the employees in Division C have the greatest average (arithmetic mean) annual salary. Is the average annual salary of the employees in the three divisions combined less than \\$55,000?\n\n(1) The average annual salary of the employees in Divisions A and B combined is \\$45,000.\n(2) The average annual salary of the employees in Division C is \\$55,000.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Evaluating the statements: then we have and , since the employees in Division C have the greatest average annual salary. Note that these two inequalities and this equation can be rewritten as , , and . Therefore, the average annual salary of the employees in the three divisions combined is , which is less than ; SUFFICIENT. The correct answer is B; statement 2 alone is sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q60",
+    "num": 60,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Statistics & Probability",
+    "difficulty": "Easy",
+    "questionText": "A certain ski shop sold 125 pairs of skis and 100 pairs of ski boots for a total of \\$75,000. What was the average (arithmetic mean) selling price of a pair of the ski boots?\n\n(1) The average selling price of a pair of skis was \\$300.\n(2) The selling price of a pair of ski boots varied from \\$150 to \\$900.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Evaluating the statements: or . This indicates that . It follows that , and so or , which can vary as the values of and vary; NOT sufficient. This indicates that . It follows that . This implies that , and so , which can vary as the values of and vary; NOT sufficient. Taking (1) and (2) together, and and so the value of is . The correct answer is C; both statements together are sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q61",
+    "num": 61,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Algebra & Equations",
+    "difficulty": "Easy",
+    "questionText": "Last year Publisher X published 1,100 books, consisting of first editions, revised editions, and reprints. How many first editions did Publisher X publish last year?\n\n(1) The number of first editions published was 50 more than twice the number of reprints published.\n(2) The number of revised editions published was half the number of reprints published.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Evaluating the statements: were 60 pairs of ski boots each with a selling price of $150, 40 pairs of ski boots each with a selling price of $900, and 125 pairs of skis each with a selling price of $240 for a total selling price of 60($150) + 40($900) + 125($240) = \\$75,000, and thus it is also possible that ; NOT sufficient. The correct answer is A; statement 1 alone is sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q62",
+    "num": 62,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Algebra & Equations",
+    "difficulty": "Easy",
+    "questionText": "What was the population of City X in 2002?\n\n(1) X\u2019s population in 2002 increased by 2 percent, or 20,000 people, over 2001.\n(2) In 2001, X\u2019s population was 1,000,000.",
+    "passage": null,
+    "answerOptions": [
+      {
+        "key": "A",
+        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "key": "B",
+        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "key": "C",
+        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+      },
+      {
+        "key": "D",
+        "text": "EACH statement ALONE is sufficient."
+      },
+      {
+        "key": "E",
+        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Evaluating the statements: equation can be used to determine different values of . For example, choosing leads to and , and choosing leads to and ; NOT sufficient. Taking from (1) and from (2) together gives . Thus, in the equation , can be replaced with and can be replaced with to give . Solving for gives , and hence and . The correct answer is C; both statements together are sufficient."
+  },
+  {
+    "id": "gmat_mock_01_q63",
+    "num": 63,
+    "section": "Data Insights",
+    "topic": "Data Sufficiency",
+    "subtopic": "Business & Finance",
+    "difficulty": "Easy",
+    "questionText": "Yesterday Bookstore B sold twice as many softcover books as hardcover books. Was Bookstore B\u2019s revenue from the sale of softcover books yesterday greater than its revenue from the sale of hardcover books yesterday?\n\n(1) The average (arithmetic mean) price of the hardcover books sold at the store yesterday was \\$10 more than the average price of the softcover books sold at the store yesterday.\n(2) The average price of the softcover and hardcover books sold at the store yesterday was greater than \\$14.",
     "passage": null,
     "answerOptions": [
       {
@@ -1745,424 +2153,16 @@ export const mock01Full64Questions: Mock01Question[] = [
       }
     ],
     "correctAnswer": "D",
-    "explanation": "For any set of consecutive integers, the mean equals the median. Statement (1) gives median = 12, so mean = 12. Statement (2) gives largest = 14, set is {10,11,12,13,14}, mean = 12. Each is sufficient."
+    "explanation": "Evaluating the statements: is a first-degree equation in the variable and has a unique solution; SUFFICIENT. In symbols, represents Jane\u2019s age 15 years from now and represents twice her current age. These expressions are equal by (2), so . This is a first-degree equation in the variable and has a unique solution; SUFFICIENT. The correct answer is D; each statement alone is sufficient."
   },
   {
-    "id": "og_di_ds_gen_1_5",
-    "num": 52,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Word Problems",
-    "difficulty": "Medium",
-    "questionText": "A store sells shirts for each and pants for each. How many total items did a customer buy? (1) The customer spent a total of . (2) The customer bought at least 2 shirts.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Equation: 20s + 30p = 110 => 2s + 3p = 11. Possible integer solutions (s, p): (1, 3) or (4, 1). Statement (1) alone gives 2 options (4 or 5 items). Statement (2) specifies s >= 2, leaving (4, 1), total = 5 items. Together sufficient."
-  },
-  {
-    "id": "og_di_ds_gen_1_6",
-    "num": 53,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Geometry",
-    "difficulty": "Medium",
-    "questionText": "What is the perimeter of triangle ABC? (1) Triangle ABC is an equilateral triangle. (2) The area of triangle ABC is 9sqrt(3).",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Statement (1) alone gives shape but no side length. Statement (2) alone gives area, but without knowing it is equilateral we cannot find perimeter. Together, Area = (s^2 * sqrt(3))/4 = 9sqrt(3) => s^2 = 36 => s = 6. Perimeter = 18."
-  },
-  {
-    "id": "og_di_ds_gen_1_7",
-    "num": 54,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Number Properties",
-    "difficulty": "Hard",
-    "questionText": "Is the positive integer k divisible by 12? (1) k is divisible by 4. (2) k is divisible by 6.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "E",
-    "explanation": "To be divisible by 12, k must be divisible by 4 and 3. k=12 is divisible by 4 and 6, and by 12. k=18 is divisible by 6 but not 4. k=24 is divisible by both and 12. But k=36 is divisible by 4 and 6. However, what if k=12? What if k=6? k=6 is divisible by 6, not 4. k=12 is divisible by both. What about k=18? Divisible by 6, not 4. What about k=24? Divisible by 4 and 6, and 12. Is there any number divisible by 4 and 6 that is NOT divisible by 12? LCM(4,6) = 12, so any number divisible by 4 and 6 MUST be a multiple of 12! Wait: 4 = 2^2, 6 = 2*3. LCM = 2^2 * 3 = 12. So together they ARE sufficient! Thus C."
-  },
-  {
-    "id": "og_di_ds_gen_1_8",
-    "num": 55,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Sets & Venn",
-    "difficulty": "Medium",
-    "questionText": "In a class of 40 students, how many students play both soccer and basketball? (1) 22 students play soccer. (2) 18 students play basketball and 8 play neither.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Total = Soccer + Basketball - Both + Neither. 40 = 22 + 18 - Both + 8 => Both = 10. Together sufficient."
-  },
-  {
-    "id": "og_di_ds_gen_1_9",
-    "num": 56,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Algebra",
-    "difficulty": "Medium",
-    "questionText": "What is the value of the two-digit integer N? (1) The sum of the digits of N is 9. (2) Reversing the digits of N increases its value by 27.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "N = 10t + u. (1) t + u = 9. (2) (10u + t) - (10t + u) = 9(u - t) = 27 => u - t = 3. System: t + u = 9, u - t = 3 => u = 6, t = 3. N = 36. Together sufficient."
-  },
-  {
-    "id": "og_di_ds_gen_1_10",
-    "num": 57,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Ratios & Percents",
-    "difficulty": "Medium",
-    "questionText": "Is the ratio of male to female employees in Company X greater than 3 to 2? (1) 60% of the employees in Company X are male. (2) There are 30 more male employees than female employees.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(1) 60% male implies 40% female. Ratio = 60/40 = 3/2 = 1.5. Is 1.5 > 1.5? No, it is equal to 3/2. So we can answer definitively NO. Statement (1) alone is sufficient!"
-  },
-  {
-    "id": "og_di_ds_gen_1_11",
-    "num": 58,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Algebra",
-    "difficulty": "Hard",
-    "questionText": "What is the value of real number x? (1) |x - 3| = 5. (2) x^2 = 64.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "E",
-    "explanation": "(1) x = 8 or x = -2. (2) x = 8 or x = -8. Combined: x could be 8. Wait! Both give x = 8 as the common solution! So combined x = 8. Thus C!"
-  },
-  {
-    "id": "og_di_ds_gen_1_12",
-    "num": 59,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Number Properties",
-    "difficulty": "Easy",
-    "questionText": "Is integer m an even integer? (1) m^3 + 3 is an odd integer. (2) 2m + 4 is an even integer.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(1) m^3 + 3 = odd => m^3 = even => m = even. Sufficient. (2) 2m + 4 is even for ALL integer values of m. Insufficient. Thus A."
-  },
-  {
-    "id": "og_di_ds_gen_1_13",
-    "num": 60,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Coordinate Geometry",
-    "difficulty": "Easy",
-    "questionText": "What is the slope of line L in the xy-plane? (1) Line L passes through the origin (0,0). (2) Line L passes through point (4, 8).",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "(1) alone: passes through origin, infinite slopes possible. (2) alone: passes through (4,8), infinite slopes possible. Combined: slope = (8-0)/(4-0) = 2. Together sufficient."
-  },
-  {
-    "id": "og_di_ds_gen_1_14",
-    "num": 61,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Rates & Motion",
-    "difficulty": "Medium",
-    "questionText": "A car traveled a total distance of D miles in T hours. What was the average speed of the car? (1) The car traveled the first 100 miles at 50 mph. (2) The car traveled the remaining 150 miles at 75 mph.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Total Distance = 100 + 150 = 250 miles. Time 1 = 100/50 = 2 hrs. Time 2 = 150/75 = 2 hrs. Total Time = 4 hrs. Average speed = 250 / 4 = 62.5 mph. Together sufficient."
-  },
-  {
-    "id": "og_di_ds_gen_1_16",
-    "num": 62,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Exponents",
-    "difficulty": "Medium",
-    "questionText": "What is the value of 2^x * 4^y? (1) x + 2y = 7. (2) x = 3.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "2^x * 4^y = 2^x * 2^(2y) = 2^(x + 2y). Statement (1) directly gives x + 2y = 7, so value is 2^7 = 128. Statement (1) alone is sufficient!"
-  },
-  {
-    "id": "og_di_ds_gen_1_17",
-    "num": 63,
-    "section": "Data Insights",
-    "topic": "Data Sufficiency",
-    "subtopic": "Geometry",
-    "difficulty": "Medium",
-    "questionText": "Is polygon P a regular hexagon? (1) Polygon P has 6 equal sides. (2) All interior angles of polygon P are equal to 120 degrees.",
-    "passage": null,
-    "answerOptions": [
-      {
-        "key": "A",
-        "text": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "key": "B",
-        "text": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "key": "C",
-        "text": "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
-      },
-      {
-        "key": "D",
-        "text": "EACH statement ALONE is sufficient."
-      },
-      {
-        "key": "E",
-        "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "(1) alone gives equilateral 6-gon, but angles could vary (not necessarily regular). (2) alone gives equiangular 6-gon, but side lengths could vary. Combined: all sides equal AND all angles equal => regular hexagon. Together sufficient."
-  },
-  {
-    "id": "og_di_ds_gen_1_18",
+    "id": "gmat_mock_01_q64",
     "num": 64,
     "section": "Data Insights",
     "topic": "Data Sufficiency",
-    "subtopic": "Number Properties",
-    "difficulty": "Hard",
-    "questionText": "How many prime factors does integer N have? (1) N is a multiple of 30. (2) N < 100.",
+    "subtopic": "Business & Finance",
+    "difficulty": "Easy",
+    "questionText": "At a certain refreshment stand, all hot dogs are the same price, and all sodas are the same price. What is the total price of 3 hot dogs and 2 sodas at the refreshment stand?\n\n(1) The total price of 5 sodas at the stand is less than the total price of 2 hot dogs.\n(2) The total price of 9 hot dogs and 6 sodas at the stand is \\$21.",
     "passage": null,
     "answerOptions": [
       {
@@ -2186,7 +2186,7 @@ export const mock01Full64Questions: Mock01Question[] = [
         "text": "Statements (1) and (2) TOGETHER are NOT sufficient."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "(1) N multiple of 30 => prime factors include 2, 3, 5 (at least 3). Could be 30 (3 prime factors) or 210 (4 prime factors: 2,3,5,7). (2) N < 100 and multiple of 30 => N can be 30, 60, or 90. 30 = 2*3*5 (3 prime factors). 60 = 2^2 * 3 * 5 (3 distinct prime factors). 90 = 2 * 3^2 * 5 (3 distinct prime factors). In all cases N has exactly 3 distinct prime factors! Together sufficient."
+    "correctAnswer": "A",
+    "explanation": "Evaluating the statements: o or . Also, by (1), so from which the value of can be uniquely determined. Then , which is the population of City X in 2002; SUFFICIENT. Even though (2) gives , it gives no information about the population of City X in 2002 either by itself or in relation to the population in 2001; NOT sufficient. The correct answer is A; statement 1 alone is sufficient."
   }
 ];

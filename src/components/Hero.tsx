@@ -121,7 +121,7 @@ export default function Hero() {
               icon: <ShieldCheck size={22} className="text-amber-400" />,
               val: '99.4% Accuracy',
               title: 'Official Test-Room',
-              desc: 'On-screen calculator, review & edit 3 questions',
+              desc: 'Official GMAC timer, section order selection',
             },
           ].map((item, idx) => (
             <div

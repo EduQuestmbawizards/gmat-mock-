@@ -40,7 +40,7 @@ export const all15MockExams: MockExam[] = [
     tag: 'Official Spec',
     difficulty: 'Adaptive (Medium-Hard)',
     scoreRange: 'Target 605–655',
-    features: ['Full Adaptive Engine', 'Data Sufficiency Drills', 'On-Screen Calculator', 'Review & Edit 3 Qs'],
+    features: ['Full Adaptive Engine', 'Data Sufficiency Drills', 'Pacing Breakdown', 'Step-by-Step Solutions'],
     description: 'Official test blueprint calibration matching standard test-day difficulty with shuffled question pools.',
     badgeColor: 'from-blue-500/20 to-indigo-500/20 text-blue-400 border-blue-500/30',
   },

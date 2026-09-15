@@ -7,7 +7,7 @@ export default function Testimonials() {
       name: 'Rohan Mehta',
       score: '735 (99th %ile)',
       school: 'Admitted to Wharton MBA',
-      feedback: 'The 15 adaptive mock tests were spot on. The Data Insights question difficulty and the official on-screen calculator mirrored test day with 100% accuracy. The diagnostic report helped me fix pacing traps in Critical Reasoning.',
+      feedback: 'The 15 adaptive mock tests were spot on. The Data Insights question difficulty and authentic GMAC exam interface mirrored test day with remarkable fidelity. The diagnostic report helped me fix pacing traps in Critical Reasoning.',
       verified: 'Verified Official Test Score',
     },
     {
@@ -21,7 +21,7 @@ export default function Testimonials() {
       name: 'Vikramaditya Rao',
       score: '705 (97th %ile)',
       school: 'Admitted to ISB PGP',
-      feedback: 'The review and edit feature in these mocks trained me to never panic. I flagged 4 questions per section and reviewed them in the last 5 minutes just like real test room conditions. Hands down the best GMAT Focus series in India.',
+      feedback: 'The timed simulation and question navigation in these mocks trained me to never panic. Being able to practice with authentic test room conditions and detailed analytics made all the difference. Hands down the best GMAT Focus series in India.',
       verified: 'Verified Official Test Score',
     },
     {

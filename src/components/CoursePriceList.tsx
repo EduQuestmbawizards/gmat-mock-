@@ -12,8 +12,10 @@ import {
   PhoneCall,
   UserPlus,
   MessageCircle,
+  CreditCard,
+  Info,
 } from 'lucide-react';
-import { PRICING_PLANS, DURATION_OPTIONS, PricingPlan } from '../data/pricingData';
+import { PRICING_PLANS, DURATION_OPTIONS, PAYPAL_NOTICE, PricingPlan } from '../data/pricingData';
 
 export default function CoursePriceList() {
   const [selectedDuration, setSelectedDuration] = useState<string>('4_months');
@@ -108,6 +110,27 @@ export default function CoursePriceList() {
             </div>
 
           </div>
+
+          {/* PayPal & International Payment Notice Banner */}
+          <div className="mt-8 max-w-3xl mx-auto p-4 rounded-2xl glass border border-amber-500/30 bg-gradient-to-r from-amber-950/40 via-slate-900/80 to-indigo-950/40 text-amber-200 text-xs sm:text-sm flex items-start sm:items-center gap-3.5 shadow-xl text-left">
+            <div className="w-8 h-8 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 shrink-0 mt-0.5 sm:mt-0">
+              <CreditCard size={18} />
+            </div>
+            <div className="flex-1 leading-relaxed">
+              <span className="font-bold text-amber-300 block sm:inline sm:mr-1.5">
+                {PAYPAL_NOTICE.title}:
+              </span>
+              <span className="text-slate-300">
+                {PAYPAL_NOTICE.description}
+              </span>
+            </div>
+            <button
+              onClick={handleOpenWhatsApp}
+              className="hidden sm:inline-flex px-3 py-1.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 text-amber-300 text-xs font-semibold shrink-0 cursor-pointer transition-all"
+            >
+              Request Link
+            </button>
+          </div>
         </motion.div>
 
         {/* 3 Main Pricing Cards Grid */}
@@ -180,6 +203,12 @@ export default function CoursePriceList() {
                         </span>
                       )}
                     </div>
+                    {currentPrice > 0 && (
+                      <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center gap-1.5 text-[10px] text-amber-300/90 leading-tight">
+                        <Info size={12} className="shrink-0 text-amber-400" />
+                        <span>PayPal available on request (conversion charges apply; link shared via email)</span>
+                      </div>
+                    )}
                   </div>
 
                   {/* Features Header */}
@@ -263,6 +292,7 @@ export default function CoursePriceList() {
             </div>
 
           </div>
+
         </motion.div>
 
       </div>

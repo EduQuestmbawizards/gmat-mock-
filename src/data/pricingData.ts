@@ -23,6 +23,12 @@ export const DURATION_OPTIONS = [
   { id: '12_months', label: '12 Months', discount: 'Maximum Access' },
 ];
 
+export const PAYPAL_NOTICE = {
+  title: 'PayPal & International Payments',
+  description: 'If you wish to use PayPal for payment, standard currency conversion and gateway charges will be added. The customized payment link will be shared directly via email upon request.',
+  badgeText: 'PayPal Available (Conversion charges apply; link shared via email)',
+};
+
 export const PRICING_PLANS: PricingPlan[] = [
   {
     id: 'starter_free',
@@ -51,10 +57,10 @@ export const PRICING_PLANS: PricingPlan[] = [
     subtitle: 'The ultimate computer-adaptive practice series for Focus Edition',
     badge: 'Most Popular',
     badgeType: 'popular',
-    priceINR: { '2_months': 3999, '4_months': 4999, '6_months': 6499, '12_months': 8999 },
-    priceUSD: { '2_months': 49, '4_months': 59, '6_months': 79, '12_months': 109 },
-    originalPriceINR: { '2_months': 6999, '4_months': 8999, '6_months': 11999, '12_months': 15999 },
-    originalPriceUSD: { '2_months': 89, '4_months': 119, '6_months': 149, '12_months': 199 },
+    priceINR: { '2_months': 10000, '4_months': 15000, '6_months': 20000, '12_months': 25000 },
+    priceUSD: { '2_months': 120, '4_months': 179, '6_months': 239, '12_months': 299 },
+    originalPriceINR: { '2_months': 14999, '4_months': 21999, '6_months': 28999, '12_months': 35999 },
+    originalPriceUSD: { '2_months': 179, '4_months': 259, '6_months': 349, '12_months': 429 },
     description: '15 full-length computer-adaptive exams matching official GMAC test algorithms, step-by-step written & video explanations, and diagnostic analytics.',
     features: [
       'All 15 Full-Length Computer-Adaptive Practice Tests (960 Qs)',
@@ -78,10 +84,10 @@ export const PRICING_PLANS: PricingPlan[] = [
     subtitle: 'Comprehensive online course, 15 mocks & 1-on-1 strategy sessions',
     badge: 'All-Inclusive Elite',
     badgeType: 'elite',
-    priceINR: { '2_months': 9999, '4_months': 12999, '6_months': 16999, '12_months': 22999 },
-    priceUSD: { '2_months': 129, '4_months': 159, '6_months': 209, '12_months': 289 },
-    originalPriceINR: { '2_months': 16999, '4_months': 21999, '6_months': 28999, '12_months': 38999 },
-    originalPriceUSD: { '2_months': 219, '4_months': 289, '6_months': 369, '12_months': 489 },
+    priceINR: { '2_months': 15000, '4_months': 20000, '6_months': 25000, '12_months': 30000 },
+    priceUSD: { '2_months': 179, '4_months': 239, '6_months': 299, '12_months': 359 },
+    originalPriceINR: { '2_months': 21999, '4_months': 28999, '6_months': 35999, '12_months': 42999 },
+    originalPriceUSD: { '2_months': 259, '4_months': 349, '6_months': 429, '12_months': 519 },
     description: 'Full GMAT prep ecosystem: complete concept curriculum, 100+ topic test drills, 15 adaptive mocks, and 1-on-1 personalized MBA profile & interview coaching.',
     features: [
       'Everything in 15 Practice Test Series (All 15 Mocks)',
